@@ -1,4 +1,4 @@
-"""Add breadcrumbs at the top of each page."""
+"""Add breadcrumbs at the top of each page (before tags)."""
 
 import re
 
