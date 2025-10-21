@@ -10,11 +10,11 @@ The `on_page_markdown` hook generates a table of contents at the bottom of
 `activities/index.md` and `research/index.md` (see `write_index`).
 """
 
-import bibtexparser
 import io
 import logging
 import re
 
+import bibtexparser
 from mkdocs.structure.files import File
 
 LOG = logging.getLogger('mkdocs')
