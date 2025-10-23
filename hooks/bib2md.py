@@ -45,7 +45,12 @@ def parse_entry(code_or_path):
     n = len(library.entries)
     if n != 1:
         LOG.warning(f"{n} entries found (not 1)")
-    return library.entries[0]
+
+    # Replace LaTeX escape sequences for Markdown
+    entry = library.entries[0]
+    for field in entry.fields:
+        field.value = field.value.replace("\\&", "&")
+    return entry
 
 
 def reformat_authors(author_string):
@@ -148,13 +153,23 @@ def write_entry(entry, out):
 def write_page(entry, out):
     """Generate a standalone page for the entry (publication)."""
 
+    # Get the tags based on entry metadata
+    tags = []
+    for keyword in ["SIGCSE", "ITiCSE", "ASEE", "PLoP", "Inroads"]:
+        if keyword in entry.raw:
+            tags.append(keyword)
+    if not tags:
+        tags.append(entry.entry_type)
+
+    # Generate the top section of the page
+    out.write("---\ntags:\n  - ")
+    out.write("\n  - ".join(tags))
+    out.write("\n---\n\n")
+    out.write(WARN + "\n\n")
+
     # Render the research page template
     template = ENV.get_template("research.md")
     rendered = template.render(**get_fields(entry))
-
-    # Generate the top section of the page
-    out.write(f"---\ntags:\n  - {entry.entry_type}\n---\n\n")
-    out.write(WARN + "\n\n")
     out.write(rendered)
 
     # Generate the entry section of the page
