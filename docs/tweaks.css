@@ -18,12 +18,19 @@
     background-color: var(--md-code-bg-color);
 }
 
+/* relative font sizes */
+
 .smaller {
     font-size: smaller;
 }
 
 .larger {
     font-size: larger;
+}
+
+.headshot {
+    border-radius: 8px;
+    max-width: 3in !important;
 }
 
 /* breadcrumb links */

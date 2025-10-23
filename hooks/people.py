@@ -1,16 +1,28 @@
 """Add links to People pages by searching for names."""
 
+import io
 import re
+import sys
 import yaml
+
+# Get imported bib2md
+bib2md = sys.modules["hooks/bib2md.py"]
 
 # Map names to urls
 PEOPLE = {}
 
 
+def is_author(names, item):
+    """Are any of the names an author of the item?"""
+    authors = item[1].fields_dict["author"].value
+    authors = bib2md.reformat_authors(authors).split(", ")
+    return any(name in authors for name in names)
+
+
 def on_files(files, config):
     """Called after the files collection is populated from the docs_dir."""
     for file in files:
-        if file.src_uri.startswith("people/"):
+        if file.src_uri.startswith("people/") and file.src_uri.endswith(".md"):
 
             # Get the front matter block
             block = ""
@@ -30,28 +42,47 @@ def on_files(files, config):
 def on_page_markdown(markdown, page, config, files):
     """Called after the page's markdown is loaded from the source file."""
 
+    page_names = page.meta.get("names", [])
     if page.url.startswith("people"):
 
-        # TODO List activities and publications
-        return markdown
+        # Get this person's activities and publications
+        acts = [item for item in bib2md.ACTS if is_author(page_names, item)]
+        pubs = [item for item in bib2md.PUBS if is_author(page_names, item)]
 
-    else:
+        # Generate markdown for each list of items
+        template = bib2md.ENV.get_template("listitem.md")
+        out = io.StringIO()
+        if acts:
+            out.write("\n## Activities { data-search-exclude }\n\n")
+            for href, entry in acts:
+                href = "../" + href
+                rendered = template.render(href=href, **bib2md.get_fields(entry))
+                out.write(rendered)
+        if pubs:
+            out.write("\n## Research { data-search-exclude }\n\n")
+            for href, entry in pubs:
+                href = "../" + href[:-3] + "md"
+                rendered = template.render(href=href, **bib2md.get_fields(entry))
+                out.write(rendered)
+        markdown += out.getvalue()
 
-        # Get the text after the heading
-        pattern = r"^\s*# (.+)$"
-        match = re.search(pattern, markdown, re.MULTILINE)
-        neck = match.end() if match else 0
-        head = markdown[:neck]
-        body = markdown[neck:]
+    # Get the text after the heading
+    pattern = r"^\s*# (.+)$"
+    match = re.search(pattern, markdown, re.MULTILINE)
+    neck = match.end() if match else 0
+    head = markdown[:neck]
+    body = markdown[neck:]
 
-        # Determine the relative path
-        count = page.url.count("/")
-        if not page.is_index:
-            count -= 1
-        path = "../" * count
+    # Determine the relative path
+    count = page.url.count("/")
+    if not page.is_index:
+        count -= 1
+    path = "../" * count
 
-        # Link every name in the body text
-        for name, url in PEOPLE.items():
-            repl = f"[{name}]({path}{url})"
-            body = re.sub(name, repl, body)
-        return head + body
+    # Link every name in the body text (except on their own page)
+    for name, url in PEOPLE.items():
+        if name in page_names:
+            continue
+        repl = f"[{name}]({path}{url})"
+        body = re.sub(name, repl, body)
+    return head + body

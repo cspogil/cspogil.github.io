@@ -1,10 +1,10 @@
-{% if href.startswith("20") %}
+{% if "-20" in href %} {# research #}
 
 * [**{{ title }}**]({{ href }})
   <br><span class="smaller">{{ author }}</span>
-  <br><span class="smaller">*{{ source }}*</span>
+  <br><span class="smaller">*{{ source }}*, {{ year }}</span>
 
-{% else %}
+{% else %} {# activities #}
 
 * [**{{ title }}**]({{ href }})
   <br><span class="smaller">{{ author }} ({{ year }})</span>
