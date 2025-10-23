@@ -16,6 +16,7 @@ URLS = set()
 
 
 def on_files(files, config):
+    URLS.clear()
     """Called after the files collection is populated from the docs_dir."""
     for file in files:
         if file.src_uri.endswith(".md"):

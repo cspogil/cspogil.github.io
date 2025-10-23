@@ -8,7 +8,10 @@ import yaml
 # Get imported bib2md
 bib2md = sys.modules["hooks/bib2md.py"]
 
-# Map names to urls
+# Primary name of each person
+INDEX = []
+
+# Map alternative names to urls
 PEOPLE = {}
 
 
@@ -21,8 +24,10 @@ def is_author(names, item):
 
 def on_files(files, config):
     """Called after the files collection is populated from the docs_dir."""
+    INDEX.clear()
+    PEOPLE.clear()
     for file in files:
-        if file.src_uri.startswith("people/") and file.src_uri.endswith(".md"):
+        if file.src_uri.startswith("people") and file.src_uri.endswith(".md"):
 
             # Get the front matter block
             block = ""
@@ -35,6 +40,7 @@ def on_files(files, config):
 
             # Add each name to the dict
             data = yaml.safe_load(block)
+            INDEX.append(data["names"][0])
             for name in data["names"]:
                 PEOPLE[name] = file.src_uri
 
@@ -42,8 +48,16 @@ def on_files(files, config):
 def on_page_markdown(markdown, page, config, files):
     """Called after the page's markdown is loaded from the source file."""
 
+    # Build the people index page
+    if page.url == "people/":
+        out = io.StringIO()
+        for name in INDEX:
+            out.write(f"\n* [{name}](../{PEOPLE[name]})")
+        return markdown + out.getvalue()
+
+    # Add acts and pubs on individual person pages
     page_names = page.meta.get("names", [])
-    if page.url.startswith("people"):
+    if page_names:
 
         # Get this person's activities and publications
         acts = [item for item in bib2md.ACTS if is_author(page_names, item)]

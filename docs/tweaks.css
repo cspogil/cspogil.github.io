@@ -29,7 +29,8 @@
 }
 
 .headshot {
-    border-radius: 8px;
+    border-radius: 1ex;
+    max-height: 3in !important;
     max-width: 3in !important;
 }
 
