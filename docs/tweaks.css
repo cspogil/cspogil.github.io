@@ -22,6 +22,10 @@
     font-size: smaller;
 }
 
+.larger {
+    font-size: larger;
+}
+
 /* breadcrumb links */
 
 nav.bread {

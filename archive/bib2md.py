@@ -4,6 +4,32 @@ import glob
 import os
 
 
+def write_page(entry, out):
+    """Generate a standalone page for the entry (publication)."""
+
+    # Create a reference format string
+    author, year, title, source = get_fields(entry)
+    ref = f"{author}. ({year}). {title}."
+    if source:
+        if entry.entry_type.startswith("in"):
+            ref += f" In *{source}*."
+        else:
+            ref += f" *{source}*."
+
+    # Generate the top section of the page
+    # out.write("---\nhide:\n  - toc\n---\n\n")
+    out.write(WARN + "\n\n")
+    out.write(f"# {title}\n\n")
+    out.write(f"**Reference:** {ref}\n\n")
+    out.write('<div class="grid" markdown="1">\n\n')
+    out.write(f"**Entry Key:** `#!tex \\cite{{{entry.key}}}`\n\n")
+    out.write(f"**Entry Type:** `@{entry.entry_type}`\n\n")
+    out.write("</div>\n")
+
+    # Generate the entry section of the page
+    write_entry(entry, out)
+
+
 def gen_md_file(path, entry):
     """Generate a Markdown file for the entry (publication)."""
 

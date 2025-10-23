@@ -1,2 +1,6 @@
 sort:
   direction: desc
+
+nav:
+  - "*"
+  - tags.md

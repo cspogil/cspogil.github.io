@@ -10,7 +10,10 @@ extra:
       find incomplete pages, broken links, typos, etc.
 
 extra_css:
-  - tweaks.css?v=2025-07-18
+  - tweaks.css?v=2025-10-22
+
+watch:
+  - templates
 
 markdown_extensions:
 
