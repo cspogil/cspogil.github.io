@@ -5,6 +5,6 @@ names:
 
 # Chris Mayfield
 
-![head shot](img/Mayfield-Chris.jpg){class="headshot"}
+![head shot](img/Chris-Mayfield.jpg){class="headshot"}
 
 Chris Mayfield (mayfiecs@jmu.edu) is a Professor of Computer Science at James Madison University.

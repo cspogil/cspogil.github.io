@@ -5,6 +5,6 @@ names:
 
 # Kevin Wortman
 
-![head shot](img/Wortman-Kevin.jpg){class="headshot"}
+![head shot](img/Kevin-Wortman.jpg){class="headshot"}
 
 Kevin Wortman is an Associate Professor of Computer Science at California State University, Fullerton.

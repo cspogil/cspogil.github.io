@@ -6,6 +6,6 @@ names:
 
 # Tricia Shepherd
 
-![head shot](img/Shepherd-Tricia.jpg){class="headshot"}
+![head shot](img/Tricia-Shepherd.jpg){class="headshot"}
 
 Tricia Shepherd (tds53@pitt.edu) is a Teaching Assistant Professor of Chemistry at the University of Pittsburgh.

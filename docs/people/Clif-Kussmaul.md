@@ -7,7 +7,7 @@ names:
 
 # Clif Kussmaul
 
-![head shot](img/Kussmaul-Clif.jpg){class="headshot"}
+![head shot](img/Clif-Kussmaul.jpg){class="headshot"}
 
 Clif Kussmaul (clif@kussmaul.org) is Principal Consultant at Green Mango Associates, LLC.
 Formerly, he was an Associate Professor of Computer Science at [Muhlenberg College](https://www.muhlenberg.edu).

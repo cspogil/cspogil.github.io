@@ -6,6 +6,6 @@ names:
 
 # Sukanya Moudgalya
 
-![head shot](img/Moudgalya-Sukanya.jpg){class="headshot"}
+![head shot](img/Sukanya-Moudgalya.jpg){class="headshot"}
 
 Sukanya Moudgalya (moudgal1@msu.edu) is an Assistant Professor of STEM Education at the University of Tennessee at Knoxville.

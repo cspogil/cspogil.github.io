@@ -5,6 +5,6 @@ names:
 
 # Mark Gondree
 
-![head shot](img/Gondree-Mark.jpg){class="headshot"}
+![head shot](img/Mark-Gondree.jpg){class="headshot"}
 
 Mark Gondree is an Associate Professor of Computer Science at Sonoma State University.
