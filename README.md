@@ -29,6 +29,7 @@ To preview the site locally while editing:
 ``` sh
 $ mkdocs serve
 ```
+<!-- Windows: python -m mkdocs serve -->
 
 Then open http://127.0.0.1:8000/ in your browser.
 Whenever you save a file under the docs directory, the site will automatically reload.
