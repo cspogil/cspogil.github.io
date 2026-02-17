@@ -21,3 +21,4 @@
 *[CS0]: Pre-Introductory Computing
 *[CS1]: Introduction to Programming
 *[CS2]: Data Structures and Algorithms
+*[AWP]: Activity Writing Program (2022)

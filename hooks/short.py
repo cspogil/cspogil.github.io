@@ -6,6 +6,7 @@ SUBS = [
     (r"{EngageCSEdu}", "[EngageCSEdu](https://www.engage-csedu.org/)"),
     (r"{The POGIL Project}", "[The POGIL Project](https://www.pogil.org/)"),
     (r"<!-- DO NOT EDIT (.*?)-->", ""),
+    (r"{{AWP}}", "[CS-POGIL Activity Writing Program (2022)](https://bit.ly/2022cspogil)"),
 ]
 
 
