@@ -9,7 +9,7 @@
     * Team responses can be visualized in tables, bar or pie graphs, word trees, and other ways.
     * Team progress can be visualized in dashboards (see examples below).
 
-For details, contact Clif Kussmaul [clif@kussmaul.org](mailto:clif@kussmaul.org).
+For details, contact Clif Kussmaul (clif@kussmaul.org).
 
 ![Dashboard By Question](img/GILT-dash-byQ.png)
 

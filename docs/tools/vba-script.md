@@ -1,4 +1,4 @@
-# VBA Script
+# VBA Script for MS Word
 
 The VBA script below can be used to create student versions from an instructor version of an activity in MS Word, as follows:
 
@@ -9,9 +9,8 @@ The VBA script below can be used to create student versions from an instructor v
 1. Run the `removeAnswers()` function, which will copy the file with “-student” appended to the name, and then remove all text in the “Answer” style.
 1. Review the student version and correct any problems.
 
-[Download VBA script](vba-script.vb)
+[:material-download: Download VBA Script](vba-script.vb)
 
-<!-- TODO: why no syntax highlighting? -->
-```vb
+```vbnet
 --8<-- "docs/tools/vba-script.vb"
 ```

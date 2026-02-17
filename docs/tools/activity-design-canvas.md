@@ -4,6 +4,6 @@ The **Activity Design Canvas** (pdf) seeks to help authors via a one page overvi
 
 If you find this approach useful, please contact Clif Kussmaul (clif@kussmaul.org). I would love to see copies of canvases you have created, and any feedback you have, so we can improve the canvas design. Thank you!
 
-[Download the PDF](img/POGIL%20Activity%20Canvas.pdf)
+[:material-download: Download the PDF](img/POGIL%20Activity%20Canvas.pdf)
 
-![POGIL Activity Canvas](img/POGIL%20Activity%20Canvas.png)
+[![POGIL Activity Canvas](img/POGIL%20Activity%20Canvas.png)](img/POGIL%20Activity%20Canvas.png)

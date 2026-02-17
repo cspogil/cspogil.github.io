@@ -8,7 +8,6 @@ In POGIL, students work in **teams**, and each team member is typically assigned
 | Recorder or Quality Control                      | Records answers for the team, or ensures that all members have correct answers. |
 | Presenter or Speaker or Spokesperson             | Presents answers (or questions) to the class, instructor, or other teams.       |
 | Reflector or Strategy Analyst or Process Analyst | Considers how the team is working and how it could improve in the future.       |
-<br/>
 
 Some instructors find it helpful to use visual aids that indicate which team member has which role, and what duties it entails. For example:
 
