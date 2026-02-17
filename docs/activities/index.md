@@ -18,25 +18,3 @@ We added separate categories for the introductory courses (CS0, CS1, and CS2) fo
 
 [1]: https://pogil.org/authoring-materials/writing-guidelines
 [2]: https://pogil.org/authoring-materials/endorsement-publication
-
-<!--
-TODO: should CS2023 KAs be listed in /activities and/or should the site map codes -> names
--->
-
-*[AI]: Artificial Intelligence
-*[AL]: Algorithmic Foundations
-*[AR]: Architecture and Organization
-*[DM]: Data Management
-*[FPL]: Foundations of Programming Languages
-*[GIT]: Graphics and Interactive Techniques
-*[HCI]: Human-Computer Interaction
-*[MSF]: Mathematical and Statistical Foundations
-*[NC]: Networking and Communication
-*[OS]: Operating Systems
-*[PDC]: Parallel and Distributed Computing
-*[SDF]: Software Development Fundamentals
-*[SE]: Software Engineering
-*[SEC]: Security
-*[SEP]: Society, Ethics, and the Profession
-*[SF]: Systems Fundamentals
-*[SPD]: Specialized Platform Development

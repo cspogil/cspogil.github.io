@@ -13,6 +13,7 @@ extra_css:
   - tweaks.css?v=2026-02-16
 
 watch:
+  - includes
   - templates
 
 markdown_extensions:
@@ -46,6 +47,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
       check_paths: true
   - pymdownx.superfences:
       custom_fences:
