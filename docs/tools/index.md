@@ -11,6 +11,6 @@ Visit [pogil.org](https://pogil.org/) for a variety of resources including:
 ## CS-POGIL Community
 
 The following tools are by CS-POGIL community members.
-If you have written or know of other tools, please [let us know](../info/contrib.md)!
+If you have written or know of other tools, please [let us know](../overview/contrib.md)!
 
 <script src="../auto-index.js"></script>

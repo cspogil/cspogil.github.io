@@ -56,7 +56,7 @@ Join our [POGIL in CS Facebook Group](https://www.facebook.com/groups/9007000167
 :   Prefer Facebook? This private group is an informal way to connect with CS-POGIL practitioners who are active on social media.
 Consider also joining the general [POGIL Practitioners](https://www.facebook.com/groups/2663376907263393) group.
 
-[Contribute to the CS-POGIL Website](info/contrib.md)
+[Contribute to the CS-POGIL Website](overview/contrib.md)
 :   Help spread the word about the people and projects in our community!
 Submit new activities or research, request updates to existing content, or share general comments about the site.
 
@@ -70,7 +70,7 @@ Submit new activities or research, request updates to existing content, or share
     ---
     Learn about POGIL pedagogy, {The POGIL Project}, and the history of POGIL in CS.
 
-    [:material-arrow-right: Info](info/index.md)
+    [:material-arrow-right: Overview](overview/index.md)
 
 -   :card_box:{ .lg .middle }
     **Meet other CS-POGILers**
