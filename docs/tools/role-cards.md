@@ -16,6 +16,6 @@ Some instructors find it helpful to use visual aids that indicate which team mem
 
 These aids can be printed on card stock and/or laminated if they will be used repeatedly. Two sets of role cards and a role wheel are attached below.
 
-* [Traditional role cards (pdf)](img/role%20cards%20-%20traditional.pdf)
-* [HACH role cards (pdf)](img/role%20cards%20-%20HACH.pdf)
-* [Role wheel (pdf)](img/role%20wheel%20-%20Mary%20B.pdf)
+* [Traditional role cards (pdf)](img/role-cards-traditional.pdf)
+* [HACH role cards (pdf)](img/role-cards-HACH.pdf)
+* [Role wheel (pdf)](img/role-wheel-Mary-B.pdf)
