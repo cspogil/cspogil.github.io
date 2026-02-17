@@ -1,6 +1,7 @@
 ---
 tags:
   - AWP
+  - Python
 ---
 
 # CS1 in Python (Gavin)

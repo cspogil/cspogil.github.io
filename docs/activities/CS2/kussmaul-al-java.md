@@ -1,14 +1,13 @@
 ---
 tags:
   - AL
-  - CS2
   - Java
 ---
 
-# Activities on Algorithms & Data Structures for CS2 in Java
+# Algorithms & Data Structures (Kussmaul)
 
 These activities were developed by Clif Kussmaul for Algorithms & Data Structures in Computer Science 2 in Java.
-For sample versions, [click here](https://drive.google.com/open?id=1F_zSPYokmp3ZgKGiIN6wX2lTBK6YXh4D). 
+For sample versions, [click here](https://drive.google.com/open?id=1F_zSPYokmp3ZgKGiIN6wX2lTBK6YXh4D).
 For full access, contact Clif Kussmaul.
 
 ## Contents

@@ -3,10 +3,10 @@ tags:
   - SE
 ---
 
-# Activities for Software Engineering
+# Software Engineering (Kussmaul)
 
 These activities were developed by Clif Kussmaul for Software Engineering.
-For sample versions, [click here](https://drive.google.com/open?id=1eHaAKt_V1akOdD6YTGkxJXbVoyegR9LY). 
+For sample versions, [click here](https://drive.google.com/open?id=1eHaAKt_V1akOdD6YTGkxJXbVoyegR9LY).
 For full access, contact Clif Kussmaul.
 
 ## Contents

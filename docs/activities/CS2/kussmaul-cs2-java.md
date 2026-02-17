@@ -1,13 +1,12 @@
 ---
 tags:
-  - CS2
   - Java
 ---
 
-# Activities for CS2 in Java
+# CS2 in Java (Kussmaul)
 
 These activities were developed by Clif Kussmaul for Computer Science 2 in Java.
-For sample versions, [click here](https://drive.google.com/open?id=1F_zSPYokmp3ZgKGiIN6wX2lTBK6YXh4D). 
+For sample versions, [click here](https://drive.google.com/open?id=1F_zSPYokmp3ZgKGiIN6wX2lTBK6YXh4D).
 For full access, contact Clif Kussmaul.
 
 ## Contents

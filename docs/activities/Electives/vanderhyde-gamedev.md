@@ -1,6 +1,7 @@
 ---
 tags:
   - AWP
+  - SPD
 ---
 
 # Game Development (Vanderhyde)

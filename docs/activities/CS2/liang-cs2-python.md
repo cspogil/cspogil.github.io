@@ -1,6 +1,7 @@
 ---
 tags:
   - AWP
+  - Python
 ---
 
 # CS2 in Python (Liang)

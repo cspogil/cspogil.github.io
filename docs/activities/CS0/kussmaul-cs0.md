@@ -1,12 +1,13 @@
 ---
 tags:
-  - CS0
+  - HTML
+  - K-12
 ---
 
-# Activities for CS0
+# CS0 (Kussmaul)
 
 These activities were developed by Clif Kussmaul for CS Principles, Computer Science 0, and/or Computer Science 1.
-For sample versions, [click here](https://drive.google.com/open?id=1GDIfIiXr6nAy22dMas-Its7kXgrKHpps). 
+For sample versions, [click here](https://drive.google.com/open?id=1GDIfIiXr6nAy22dMas-Its7kXgrKHpps).
 For full access, contact Clif Kussmaul.
 
 ## Contents
@@ -24,7 +25,6 @@ For full access, contact Clif Kussmaul.
 [^1]: Endorsed by {The POGIL Project}
 [^2]: {EngageCSEdu}
 [^3]: {EngageCSEdu} 2018 Engagement Excellence Award
-
 
 ``` bibtex
 @misc{kussmaul-cs0,

@@ -1,10 +1,9 @@
 ---
 tags:
-  - CS1
   - Java
 ---
 
-# Activities for CS1 in Java
+# CS1 in Java (Mayfield)
 
 These activities were developed by Chris Mayfield and colleagues for Computer Science 1 in Java. For full access, contact Chris Mayfield.
 

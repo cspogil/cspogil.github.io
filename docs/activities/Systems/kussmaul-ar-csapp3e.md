@@ -5,12 +5,12 @@ tags:
   - x86-64
 ---
 
-# Activities for Architecture & Organization
+# Architecture & Organization (Kussmaul)
 
 These activities were developed by Clif Kussmaul for Architecture and Organization
 using Computer Systems: A Programmer's Perspective (3E) by Bryant and O'Hallaron.
 As such, some of the activities focus on the x86-64 architecture.
-For sample versions, [click here](https://drive.google.com/open?id=1SyJXAowsxxZcifzaD3lzOMrh6U4yAW4N). 
+For sample versions, [click here](https://drive.google.com/open?id=1SyJXAowsxxZcifzaD3lzOMrh6U4yAW4N).
 For full access, contact Clif Kussmaul.
 
 ## Contents
@@ -22,7 +22,7 @@ Activity Name                         | Notes
  3. Intro to C III: Structures        | malloc, structures
  4. Data Reps I: Bits                 | bits & bytes, number systems, C types & operators, text, instructions
  5. Data Reps II: Integers            | signed & unsigned, C types, casting, operations
- 6. Data Reps III: Floats	            | 
+ 6. Data Reps III: Floats	            |
  7. Code Reps I: Architecture         | abstraction, hardware, storage hierarchy, etc
  8. Code Reps II: Steps & Files       | preprocess, compile, assemble, link
  9. Code Reps III: Addressing         | registers, direct, indirect, scaled index, etc

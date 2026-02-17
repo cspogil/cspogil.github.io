@@ -1,6 +1,8 @@
 ---
 tags:
   - AWP
+  - Java
+  - SE
 ---
 
 # Software Design (Holdener)

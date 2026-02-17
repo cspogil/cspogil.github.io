@@ -3,7 +3,7 @@ tags:
   - AI
 ---
 
-# Activities for Artificial Intelligence
+# Artificial Intelligence (Kussmaul)
 
 These activities were developed by Clif Kussmaul for Artificial Intelligence.
 For sample versions, [click here](https://drive.google.com/open?id=1hUNEIDzPATzBHPq2BROXZ8FLEFlJh1y8).

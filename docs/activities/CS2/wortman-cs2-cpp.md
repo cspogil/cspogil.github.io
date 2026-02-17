@@ -1,6 +1,7 @@
 ---
 tags:
   - AWP
+  - C++
 ---
 
 # CS2 in C++ (Wortman)

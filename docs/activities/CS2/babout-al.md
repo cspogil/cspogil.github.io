@@ -3,7 +3,7 @@ tags:
   - AL
 ---
 
-# Activities for Algorithms & Data Structures
+# Algorithms & Data Structures (Babout)
 
 These activities were developed by Laurent Babout and Clif Kussmaul for Algorithms & Data Structures.
 For instructor versions, [click here](https://rdb.p.lodz.pl/dataset.xhtml?persistentId=doi:10.34658/RDB.5WF2KR).

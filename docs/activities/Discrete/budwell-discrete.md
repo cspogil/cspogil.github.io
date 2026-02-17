@@ -1,6 +1,7 @@
 ---
 tags:
   - AWP
+  - MSF
 ---
 
 # Discrete Mathematics (Budwell)

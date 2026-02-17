@@ -1,6 +1,7 @@
 ---
 tags:
   - AWP
+  - Python
 ---
 
 # Scientific Computing (Johnston)

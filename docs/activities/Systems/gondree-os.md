@@ -1,6 +1,7 @@
 ---
 tags:
   - AWP
+  - OS
 ---
 
 # Operating Systems (Gondree)

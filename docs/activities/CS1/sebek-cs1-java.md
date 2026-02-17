@@ -1,6 +1,7 @@
 ---
 tags:
   - AWP
+  - Java
 ---
 
 # CS1 in Java (Sebek)

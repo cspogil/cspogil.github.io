@@ -1,10 +1,9 @@
 ---
 tags:
-  - CS1
   - Python
 ---
 
-# Activities for CS1 in Python
+# CS1 in Python (Mayfield)
 
 These activities were developed by Chris Mayfield, Tricia Shepherd, and Helen Hu for Computer Science 1 in Python. For full access, contact Chris Mayfield.
 

@@ -1,6 +1,7 @@
 ---
 tags:
   - AWP
+  - SEC
 ---
 
 # Cybersecurity (Ramaprasad)

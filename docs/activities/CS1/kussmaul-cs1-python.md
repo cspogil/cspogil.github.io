@@ -1,13 +1,12 @@
 ---
 tags:
-  - CS1
   - Python
 ---
 
-# Activities for CS1 in Python
+# CS1 in Python (Kussmaul)
 
 These activities were developed by Clif Kussmaul for Computer Science 1 in Python.
-For sample versions, [click here](https://drive.google.com/drive/folders/1JeCcwPkeQ1e5LSFeBPQm2Lo_3tSUscSw). 
+For sample versions, [click here](https://drive.google.com/drive/folders/1JeCcwPkeQ1e5LSFeBPQm2Lo_3tSUscSw).
 For full access, contact Clif Kussmaul.
 
 ## Contents

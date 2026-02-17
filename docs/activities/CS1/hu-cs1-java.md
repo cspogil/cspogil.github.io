@@ -1,10 +1,9 @@
 ---
 tags:
-  - CS1
   - Java
 ---
 
-# Activities for CS1 in Java
+# CS1 in Java (Hu)
 
 These activities were developed by Helen Hu with contributions from Greg Gagne and Tricia Shepherd.
 The first model from each activity is publicly available; email Helen Hu with your preferred Google Drive account for full access to all activities.
