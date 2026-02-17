@@ -78,3 +78,10 @@ span.md-tags {
         display: none !important;
     }
 }
+
+/* indent child pages in navigation sidebar */
+
+.md-nav[data-md-level="1"] > .md-nav__list {
+    margin-left: 1em;
+    padding-left: 0.5em;
+}

@@ -48,12 +48,12 @@ def on_files(files, config):
 def on_page_markdown(markdown, page, config, files):
     """Called after the page's markdown is loaded from the source file."""
 
-    # Build the people index page
-    if page.url == "people/":
-        out = io.StringIO()
-        for name in INDEX:
-            out.write(f"\n* [{name}](../{PEOPLE[name]})")
-        return markdown + out.getvalue()
+    # Build the people index page (now done by auto-index.js)
+    # if page.url == "people/":
+    #     out = io.StringIO()
+    #     for name in INDEX:
+    #         out.write(f"\n* [{name}](../{PEOPLE[name]})")
+    #     return markdown + out.getvalue()
 
     # Add acts and pubs on individual person pages
     page_names = page.meta.get("names", [])

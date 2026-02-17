@@ -1,12 +1,16 @@
 # Tools
 
-* [Activity Design Canvas](activity-design-canvas.md).
-* [BibTeX Generator](bibgen.md) to generate a .bib file for an activity collection.
+## The POGIL Project
 
-* create student activities from versions with sample answers, etc.
-  * [Classroom Activity Utility](classroom-activity-utility.md) for Google Docs to create student & teacher versions from an author version.
-  * [VBA Script](vba-script.md) for MS Word to create student version from an instructor version.
-  
-* from [The POGIL Project](https://pogil.org)
-    * [POGIL Tools](https://pogil.org/pogil-tools)
-    * [Resources for Educators](https://pogil.org/workshops-events/workshops/educators/resources)
+Visit [pogil.org](https://pogil.org/) for a variety of resources including:
+
+* [POGIL Tools](https://pogil.org/pogil-tools)
+* [General POGIL Book](https://pogil.org/curricular-materials/general-pogil-book)
+* [Resources for Educators](https://pogil.org/workshops-events/workshops/educators/resources)
+
+## CS-POGIL Community
+
+The following tools are by CS-POGIL community members.
+If you have written or know of other tools, please [let us know](../info/contrib.md)!
+
+<script src="../auto-index.js"></script>
