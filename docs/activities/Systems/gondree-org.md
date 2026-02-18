@@ -2,6 +2,7 @@
 tags:
   - AR
   - AWP
+  - C
 ---
 
 # Computer Organization (Gondree)

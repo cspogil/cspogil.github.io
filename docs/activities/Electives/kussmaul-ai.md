@@ -1,6 +1,7 @@
 ---
 tags:
   - AI
+  - SPD
 ---
 
 # Artificial Intelligence (Kussmaul)

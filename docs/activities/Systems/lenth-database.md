@@ -2,6 +2,7 @@
 tags:
   - AWP
   - DM
+  - SQL
 ---
 
 # Database Systems (Lenth)

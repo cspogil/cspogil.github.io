@@ -2,6 +2,7 @@
 tags:
   - AR
   - AWP
+  - MIPS
 ---
 
 # Computer Architecture (Smallwood)
