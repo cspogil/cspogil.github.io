@@ -28,6 +28,8 @@ The first and fourth activity are freely available via {EngageCSEdu}.
 14. Extending Classes
 15. Recursive Functions
 
+The collection also includes several meta activities (Team Roles, Team Disruptions, What Employers Want, Group vs Team, POGIL Research) and case studies for academic honesty.
+
 [1]: https://www.engage-csedu.org/find-resources/introduction-python
 [4]: https://www.engage-csedu.org/find-resources/conditions-and-logic-python
 

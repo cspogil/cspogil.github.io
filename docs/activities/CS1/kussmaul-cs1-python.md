@@ -27,7 +27,7 @@ For full access, contact Clif Kussmaul.
   author = {Clif Kussmaul},
   title  = {Activities for CS1 in Python},
   url    = {https://drive.google.com/drive/folders/1JeCcwPkeQ1e5LSFeBPQm2Lo_3tSUscSw},
-  month  = {Sept},
+  month  = {September},
   year   = {2019},
   note   = {For full access, contact Clif Kussmaul}
 }

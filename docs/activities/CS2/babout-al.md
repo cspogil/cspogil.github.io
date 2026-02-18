@@ -18,11 +18,11 @@ For instructor versions, [click here](https://rdb.p.lodz.pl/dataset.xhtml?persis
 6. Randomized Selection
 
 ``` bibtex
-@misc{kussmaul-al-java,
+@misc{babout-al,
   author = {Laurent Babout and Clif Kussmaul},
   title  = {Activities for Algorithms & Data Structures},
   url    = {https://rdb.p.lodz.pl/dataset.xhtml?persistentId=doi:10.34658/RDB.5WF2KR},
-  month  = {Feb},
+  month  = {February},
   year   = {2026},
 }
 ```

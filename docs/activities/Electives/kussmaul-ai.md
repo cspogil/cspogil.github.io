@@ -33,7 +33,7 @@ For full access, contact Clif Kussmaul.
   author = {Clif Kussmaul},
   title  = {Activities for Artificial Intelligence},
   url    = {https://drive.google.com/open?id=1hUNEIDzPATzBHPq2BROXZ8FLEFlJh1y8},
-  month  = {Dec},
+  month  = {December},
   year   = {2021},
   note   = {For full access, contact Clif Kussmaul}
 }

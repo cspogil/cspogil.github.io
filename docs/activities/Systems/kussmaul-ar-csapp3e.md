@@ -37,7 +37,7 @@ Activity Name                         | Notes
   author = {Clif Kussmaul},
   title  = {Activities for Architecture & Organization},
   url    = {https://drive.google.com/open?id=1SyJXAowsxxZcifzaD3lzOMrh6U4yAW4N},
-  month  = {Sept},
+  month  = {September},
   year   = {2018},
   note   = {For full access, contact Clif Kussmaul}
 }
