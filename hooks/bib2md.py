@@ -70,7 +70,9 @@ def reformat_authors(author_string):
 
 def abbreviate(url):
     """Shorten the URL for better text wrapping."""
-    pos = url.index("/", 8)
+    pos = url.find("/", 8)
+    if pos < 0:
+        return url
     return url[:pos+1] + "..."
 
 
