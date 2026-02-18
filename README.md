@@ -1,11 +1,13 @@
 # cspogil.org
 
-The website is built with [MkDocs][1] using the [Material][2] theme and [Awesome Nav][3] plugin.
+The website is built with [MkDocs][1] using the [Material][2] theme,
+the [Awesome Nav][3] plugin, and the [mkdocs-redirects][6] plugin.
 Deployment to [GitHub Pages][4] is automated via [GitHub Actions][5].
 
 [1]: https://www.mkdocs.org/
 [2]: https://squidfunk.github.io/mkdocs-material/
 [3]: https://lukasgeiter.github.io/mkdocs-awesome-nav/
+[6]: https://github.com/mkdocs/mkdocs-redirects
 [4]: https://pages.github.com/
 [5]: https://github.com/features/actions
 

@@ -72,6 +72,10 @@ plugins:
   - search
   - tags
   - awesome-nav
+  - redirects:
+      redirect_maps:
+        'Roles+and+Role+Cards.md': 'tools/role-cards.md'
+        'What+is+POGIL.md': 'overview/index.md'
 
 theme:
   name: material
