@@ -28,6 +28,15 @@
     font-size: larger;
 }
 
+.smaller a {
+    color: var(--md-accent-fg-color);
+}
+
+.smaller a:focus,
+.smaller a:hover {
+  color: var(--md-typeset-a-color);
+}
+
 .headshot {
     border-radius: 1ex;
     max-height: 3in !important;

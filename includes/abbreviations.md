@@ -1,4 +1,3 @@
-<!-- CS2023 Knowledge Areas -->
 *[AI]: Artificial Intelligence
 *[AL]: Algorithmic Foundations
 *[AR]: Architecture and Organization
@@ -17,7 +16,6 @@
 *[SF]: Systems Fundamentals
 *[SPD]: Specialized Platform Development
 
-<!-- Informal course abbreviations -->
 *[CS0]: Pre-Introductory Computing
 *[CS1]: Introduction to Programming
 *[CS2]: Data Structures and Algorithms

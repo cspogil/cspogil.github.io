@@ -27,8 +27,11 @@ def on_files(files, config):
     INDEX.clear()
     PEOPLE.clear()
     for file in files:
-        if file.src_uri.startswith("people") and file.src_uri.endswith(".md"):
-
+        if (
+            file.src_uri.startswith("people")
+            and file.src_uri.endswith(".md")
+            and not file.src_uri.endswith("index.md")
+        ):
             # Get the front matter block
             block = ""
             with open("docs/" + file.src_uri) as f:
@@ -49,11 +52,13 @@ def on_page_markdown(markdown, page, config, files):
     """Called after the page's markdown is loaded from the source file."""
 
     # Build the people index page (now done by auto-index.js)
-    # if page.url == "people/":
-    #     out = io.StringIO()
-    #     for name in INDEX:
-    #         out.write(f"\n* [{name}](../{PEOPLE[name]})")
-    #     return markdown + out.getvalue()
+    if page.url == "people/":
+        out = io.StringIO()
+        out.write('<div class="grid cards" markdown="1">\n')
+        for name in INDEX:
+            out.write(f"\n- [{name}](../{PEOPLE[name]})")
+        out.write("\n</div>\n")
+        return markdown + out.getvalue()
 
     # Add acts and pubs on individual person pages
     page_names = page.meta.get("names", [])
