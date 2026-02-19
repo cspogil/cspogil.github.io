@@ -7,7 +7,7 @@ tags:
 
 # Computer Architecture (Smallwood)
 
-Written by Pam Smallwood during the {{AWP}}.
+Written by Pamela Smallwood during the {{AWP}}.
 
 ## Contents
 
@@ -23,7 +23,7 @@ Written by Pam Smallwood during the {{AWP}}.
 
 ``` bibtex
 @misc{smallwood-arch,
-  author = {Pam Smallwood},
+  author = {Pamela Smallwood},
   title  = {Activities for Computer Architecture},
   url    = {https://pac.pogil.org/index.php/pac/issue/view/19},
   month  = {August},
