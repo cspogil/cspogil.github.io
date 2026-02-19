@@ -5,7 +5,7 @@ tags:
   - OS
 ---
 
-# Operating Systems (Gondree)
+# Queuing Theory (Gondree)
 
 Written by Mark Gondree during the {{AWP}}.
 
@@ -14,9 +14,9 @@ Written by Mark Gondree during the {{AWP}}.
 1. [Intro to Queuing Theory](https://drive.google.com/file/d/1w7THLHsef6fknD3rLtArnp04fZFQQepx/view?usp=share_link)
 
 ``` bibtex
-@misc{gondree-os,
+@misc{gondree-queue,
   author = {Mark Gondree},
-  title  = {Activities for Operating Systems},
+  title  = {Activities for Queuing Theory},
   url    = {https://pac.pogil.org/index.php/pac/issue/view/19},
   month  = {August},
   year   = {2022},
