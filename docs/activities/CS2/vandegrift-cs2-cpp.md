@@ -7,7 +7,7 @@ tags:
 # CS2 in C++ (VanDeGrift)
 
 These activities were developed by Tammy VanDeGrift for CS2 using C/C++.
-Full versions are available in [this Dropbox folder](https://www.dropbox.com/sh/rl0yyth9g06psva/AADB0Cj4isIX5DAyrspqj8mFa).
+Full versions are available in this [Dropbox folder](https://www.dropbox.com/sh/rl0yyth9g06psva/AADB0Cj4isIX5DAyrspqj8mFa).
 
 ## Contents
 
