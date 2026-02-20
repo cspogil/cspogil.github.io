@@ -1,6 +1,7 @@
 ---
 names:
   - Tammy VanDeGrift
+  - Tammy van de Grift
 ---
 
 # Tammy VanDeGrift

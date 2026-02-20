@@ -6,7 +6,7 @@ tags:
 # CS0 Survey (Mayfield)
 
 These activities were developed by Chris Mayfield for a survey course.
-The LaTeX source is available at on GitHub at [ChrisMayfield/cspogil/CS0](https://github.com/ChrisMayfield/cspogil/tree/master/CS0).
+The LaTeX source is available on GitHub at [ChrisMayfield/cspogil/CS0](https://github.com/ChrisMayfield/cspogil/tree/master/CS0).
 PDF builds are available upon request.
 
 ## Contents
