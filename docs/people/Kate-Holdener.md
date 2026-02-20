@@ -7,6 +7,6 @@ names:
 
 ![head shot](img/Kate-Holdener.jpg){class="headshot"}
 
-Kate Holdener (kate.holdener@slu.edu) is an Assistant Professor of Computer Science at Saint Louis University.
+Kate Holdener (holdener@wustl.edu) is a Senior Lecturer of Computer Science at Washington University in St. Louis.
 
-- https://www.slu.edu/science-and-engineering/academics/computer-science/faculty-and-staff/kate-holdener.php
+- https://engineering.washu.edu/faculty/Kate-Holdener.html
