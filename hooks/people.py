@@ -72,13 +72,13 @@ def on_page_markdown(markdown, page, config, files):
         template = bib2md.ENV.get_template("listitem.md")
         out = io.StringIO()
         if acts:
-            out.write("\n## Activities { data-search-exclude }\n\n")
+            out.write("\n## Classroom Activities { data-search-exclude }\n\n")
             for href, entry in acts:
                 href = "../" + href
                 rendered = template.render(href=href, **bib2md.get_fields(entry))
                 out.write(rendered)
         if pubs:
-            out.write("\n## Research { data-search-exclude }\n\n")
+            out.write("\n## Related Research { data-search-exclude }\n\n")
             for href, entry in pubs:
                 href = "../" + href[:-3] + "md"
                 rendered = template.render(href=href, **bib2md.get_fields(entry))
