@@ -7,6 +7,6 @@ names:
 
 ![head shot](img/Preston-Carman.jpg){class="headshot"}
 
-Preston Carman is an Associate Professor of Computer Science at Walla Walla University.
+Preston Carman (preston.carman@wallawalla.edu) is a Professor of Computer Science at Walla Walla University.
 
 - https://www.prestoncarman.com/

@@ -4,9 +4,9 @@ tags:
   - SDF
 ---
 
-# CS1 in C++ (Carman)
+# CS1 in C++ (Duncan)
 
-These activities by Preston Carman were adapted from Python activities by Lisa Olivieri and various activities by Clif Kussmaul.
+These activities by Jonathan Duncan and Preston Carman were adapted from Python activities by Lisa Olivieri and various activities by Clif Kussmaul.
 
 The collection is available on GitHub at https://github.com/wwu-cs/cpp_pogil.
 
@@ -41,8 +41,8 @@ The collection is available on GitHub at https://github.com/wwu-cs/cpp_pogil.
 27. Recursion
 
 ``` bibtex
-@misc{carman-cs1-cpp,
-  author = {Preston Carman},
+@misc{duncan-cs1-cpp,
+  author = {Jonathan Duncan and Preston Carman},
   title  = {Activities for CS1 in C++},
   url    = {https://github.com/wwu-cs/cpp_pogil},
   month  = {January},
