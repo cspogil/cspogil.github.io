@@ -27,7 +27,7 @@ For sample versions or full access, contact Sofia Lemons.
 @misc{lemons-cs2-java,
   author = {Sofia Lemons},
   title  = {Activities for CS2 in Java},
-  url    = {TODO},
+  url    = {https://drive.google.com/drive/folders/1zljttd0stQGManYJ0mZLZRMjAZWGfyCy},
   month  = {TODO},
   year   = {TODO},
   note   = {For full access, contact Sofia Lemons}

@@ -12,9 +12,11 @@ hide:
 </style>
 
 <div>
-  <img src="img/cspogil-logo-light.png#only-light" alt="light bulb surrounded by POGIL in CS"
+  <img src="img/cspogil-logo-light.png#only-light"
+       alt="CS-POGIL logo with interlocking puzzle pieces and tech icons"
        style="float: right; max-width: min(21em, 45%); margin: 0 1em;">
-  <img src="img/cspogil-logo-dark.png#only-dark" alt="light bulb surrounded by POGIL in CS"
+  <img src="img/cspogil-logo-dark.png#only-dark"
+       alt="CS-POGIL logo with interlocking puzzle pieces and tech icons"
        style="float: right; max-width: min(21em, 45%); margin: 0 1em;">
 </div>
 
