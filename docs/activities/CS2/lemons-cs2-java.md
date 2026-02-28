@@ -28,8 +28,8 @@ For sample versions or full access, contact Sofia Lemons.
   author = {Sofia Lemons},
   title  = {Activities for CS2 in Java},
   url    = {https://drive.google.com/drive/folders/1zljttd0stQGManYJ0mZLZRMjAZWGfyCy},
-  month  = {TODO},
-  year   = {TODO},
+  month  = {March},
+  year   = {2020},
   note   = {For full access, contact Sofia Lemons}
 }
 ```
