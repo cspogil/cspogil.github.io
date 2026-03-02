@@ -7,7 +7,7 @@ tags:
 
 # Computer Architecture (Smallwood)
 
-Written by Pamela Smallwood during the {{AWP}}.
+Written by Pam Smallwood during the {{AWP}}.
 
 ## Contents
 
@@ -19,8 +19,10 @@ Written by Pamela Smallwood during the {{AWP}}.
 6. [Building a MIPS Single Cycle Datapath - Part 2: Adding I-type Memory Access Instructions](https://drive.google.com/file/d/12nXY2emZy6V_KybDX2kN5uI2mbRqDv0t/view?usp=share_link)
 7. [Pipeline Diagrams and Pipeline Timing](https://drive.google.com/file/d/1woZm0AXg7gE_GqbjHZayDlQBtDRd1swW/view?usp=share_link)
 8. [Data Hazards and Forwarding Solutions](https://drive.google.com/file/d/14dZouiaNA0fH_YqMMsj8XDPsKBopKb-t/view?usp=share_link)
-9. [Data Hazard Detection and Handling – Part 1](https://drive.google.com/file/d/1XemovOzYjxcfodfBcbXOH8vfq1oXVcEM/view?usp=share_link)
-10. Data Hazard Detection and Handling - Part 2 LW (available upon request)
+9. [Data Hazard Detection and Handling - Part 1](https://drive.google.com/file/d/1XemovOzYjxcfodfBcbXOH8vfq1oXVcEM/view?usp=share_link)
+10. Data Hazard Detection and Handling - Part 2: LW (available upon request)
+
+*[LW]: Load Word
 
 ``` bibtex
 @misc{smallwood-arch,
