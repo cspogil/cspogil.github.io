@@ -2,12 +2,12 @@ site_name: CS-POGIL
 site_url: https://cspogil.github.io/
 repo_url: https://github.com/cspogil/cspogil.github.io
 
-extra:
-  consent:
-    title: Under Construction
-    description: >-
-      This site is currently being developed, so you may
-      find incomplete pages, broken links, typos, etc.
+# extra:
+#   consent:
+#     title: Under Construction
+#     description: >-
+#       This site is currently being developed, so you may
+#       find incomplete pages, broken links, typos, etc.
 
 extra_css:
   - extra.css?v=2026-02-18
