@@ -1,4 +1,15 @@
-# Overview
+# Getting Started with POGIL in CS Classes
+
+CS-POGIL is a community effort to bring *Process Oriented Guided Inquiry Learning (POGIL)* to computer science education. Our work builds on the broader POGIL Project, which began in chemistry in the 1990s and has since expanded across STEM disciplines.
+
+CS-POGIL exists to:
+* Develop and share high-quality guided-inquiry activities for computer science
+* Support faculty adoption through workshops, mentoring, and research
+* Foster a welcoming community of educators committed to active learning
+
+Whether you are new to POGIL or an experienced practitioner, we invite you to explore the materials, learn about the pedagogy, and join the CS-POGIL community.
+
+[The Teaching Paper on POGIL in CS](https://www.engage-csedu.org/find-resources/teaching-paper-process-oriented-guided-inquiry-learning-pogil-computer-science) at [EngageCSEdu](https://www.engage-csedu.org/) is a good starting point for those interested in teaching with POGIL in Computer Science classes.
 
 ## POGIL Pedagogy
 
@@ -11,17 +22,28 @@ Students discover key concepts and construct their own knowledge while collabora
 Using team roles and other scaffolding, students develop process skills such as critical thinking, problem-solving, teamwork, AND written/oral communication.
 The instructor guides the process, creates opportunities for teams to report out, and offers additional support as needed.
 
-## The POGIL Project
+## Sample CS Activities
 
-The POGIL Project ([pogil.org](https://pogil.org)) is a nonprofit 501\(c\)(3) organization that brings together like-minded educators who wish to effect change within education.
-Project members work to disseminate its unique pedagogy, POGIL, at the secondary and college levels through professional development workshops as well as the production of curricular materials.
+The [EngageCSEdu](https://www.engage-csedu.org/) repository also features several peer reviewed IntroCS-POGIL activities:
 
-See the following pages (on pogil.org) for more information:
+* CS1 Java
+    * [Introduction to Java](https://www.engage-csedu.org/find-resources/introduction-java)
+    &nbsp;|&nbsp; [activity pdf](https://www.engage-csedu.org/sites/default/files/IntroJava_Student.pdf)
+    * [Boolean Logic](https://www.engage-csedu.org/find-resources/boolean-logic-java)
+    &nbsp;|&nbsp; [activity pdf](https://www.engage-csedu.org/sites/default/files/BoolLogic_Student.pdf)
+* CS1 Python
+    * [Introduction to Python](https://www.engage-csedu.org/find-resources/introduction-python)
+    &nbsp;|&nbsp; [activity pdf](https://www.engage-csedu.org/sites/default/files/IntroPython_Student.pdf)
+    * [Conditions and Logic](https://www.engage-csedu.org/find-resources/conditions-and-logic-python)
+    &nbsp;|&nbsp; [activity pdf](https://www.engage-csedu.org/sites/default/files/CondLogic_Student.pdf)
 
-* [What is POGIL?](https://pogil.org/what-is-pogil)
-* [About The POGIL Project](https://pogil.org/about-the-pogil-project)
-* [Frequently Asked Questions](https://pogil.org/faqs)
+## Acknowledgments
 
-## CS-POGIL Website
+![NSF logo](../img/NSF_logo.png){style="float: right; margin-left: 1em; max-height: 8em;"}
 
-We invite you to learn more [about CS-POGIL](about.md) and [contribute to cspogil.org](contrib.md).
+Material on this website is based upon work supported by the National Science Foundation under grant numbers [1044679][1], [1626765][2], and [2216454][3].
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+[1]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1044679
+[2]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1626765
+[3]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2216454
