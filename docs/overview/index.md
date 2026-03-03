@@ -24,4 +24,6 @@ See the following pages (on pogil.org) for more information:
 
 ## CS-POGIL Website
 
+[The Teaching Paper on POGIL in CS](https://www.engage-csedu.org/find-resources/teaching-paper-process-oriented-guided-inquiry-learning-pogil-computer-science) at [EngageCSEdu](https://www.engage-csedu.org/) is a good starting point for those interested in teaching with POGIL in Computer Science classes.
+
 We invite you to learn more [about CS-POGIL](about.md) and [contribute to cspogil.org](contrib.md).
