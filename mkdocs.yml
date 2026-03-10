@@ -82,7 +82,7 @@ theme:
   name: material
   custom_dir: overrides
   favicon: favicon.ico
-  logo: img/light-bulb.png
+  logo: img/cspogil-favicon.png
   palette:
     # Palette toggle for light mode
     - scheme: default
