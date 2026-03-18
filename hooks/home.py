@@ -5,16 +5,17 @@ import os
 
 def patch(output, config):
     """Find and modify each site_name."""
-    logo = config["theme"]["logo"]
+    # logo = config["theme"]["logo"]
+    logo = 'aria-label="CS-POGIL"'
     name = config["site_name"]
     link = f'<a href="/">{name}</a>'
     beg = 0
     while (beg := output.find(logo, beg)) > -1:
         # Find site_name after the logo
-        beg = output.index(name, beg)
+        beg = output.index(name, beg + len(logo))
         end = beg + len(name)
         output = output[:beg] + link + output[end:]
-    return output
+    return output.replace('title="CS-POGIL"', 'title="Home Page"')
 
 
 def on_post_page(output, page, config):

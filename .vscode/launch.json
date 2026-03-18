@@ -10,7 +10,7 @@
             "request": "launch",
             "module": "mkdocs",
             "args": ["serve"],
-            "cwd": "${workspaceFolder}/website",
+            "cwd": "${workspaceFolder}",
         },
     ]
 }
