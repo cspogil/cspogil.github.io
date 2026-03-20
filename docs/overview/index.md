@@ -1,25 +1,25 @@
 # Getting Started with POGIL in CS Classes
 
-CS-POGIL is a community effort to bring *Process Oriented Guided Inquiry Learning (POGIL)* to computer science education. Our work builds on the broader POGIL Project, which began in chemistry in the 1990s and has since expanded across STEM disciplines.
-
+CS-POGIL is a community effort to bring *Process Oriented Guided Inquiry Learning* to computer science education. Our work builds on the broader [POGIL Project](https://pogil.org/), which began in chemistry in the 1990s and has since expanded across STEM disciplines.
 CS-POGIL exists to:
+
 * Develop and share high-quality guided-inquiry activities for computer science
 * Support faculty adoption through workshops, mentoring, and research
 * Foster a welcoming community of educators committed to active learning
 
-Whether you are new to POGIL or an experienced practitioner, we invite you to explore the materials, learn about the pedagogy, and join the CS-POGIL community.
+Whether you are new to POGIL or an experienced practitioner, we invite you to explore these materials, learn about the pedagogy, and join the CS-POGIL community.
+The [Teaching Paper][TP] published on [EngageCSEdu](https://www.engage-csedu.org/) is a good starting point for those interested in adopting POGIL in computer science classes.
 
-[The Teaching Paper on POGIL in CS](https://www.engage-csedu.org/find-resources/teaching-paper-process-oriented-guided-inquiry-learning-pogil-computer-science) at [EngageCSEdu](https://www.engage-csedu.org/) is a good starting point for those interested in teaching with POGIL in Computer Science classes.
+[TP]: https://www.engage-csedu.org/find-resources/teaching-paper-process-oriented-guided-inquiry-learning-pogil-computer-science
 
 ## POGIL Pedagogy
 
-POGIL is an acronym for Process Oriented Guided Inquiry Learning.
-It is a student-centered, group-learning instructional strategy and philosophy developed through research on how students learn best.
-
-During a POGIL activity, students work in self-managed teams through a learning cycle of exploration, concept invention, and application.
-The instructor is not a lecturer, but rather an active facilitator who helps all students to be engaged and achieve the learning objectives.
-Students discover key concepts and construct their own knowledge while collaborating with others.
-Using team roles and other scaffolding, students develop process skills such as critical thinking, problem-solving, teamwork, AND written/oral communication.
+POGIL is an acronym for *Process Oriented Guided Inquiry Learning*.
+It's a student-centered, group-learning instructional strategy and philosophy developed through research on how students learn best.
+During a POGIL activity, students work in **self-managed teams** through a **learning cycle** of exploration, concept invention, and application.
+The instructor is not a lecturer, but rather an **active facilitator** who helps all students to be engaged and achieve the learning objectives.
+Students discover key concepts and **construct their own knowledge** while collaborating with others.
+Using team roles and other scaffolding, students **develop process skills** such as critical thinking, problem-solving, teamwork, AND written/oral communication.
 The instructor guides the process, creates opportunities for teams to report out, and offers additional support as needed.
 
 ## Sample CS Activities
