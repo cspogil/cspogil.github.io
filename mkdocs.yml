@@ -77,6 +77,7 @@ plugins:
         'Roles+and+Role+Cards.md': 'tools/role-cards.md'
         'What+is+POGIL.md': 'overview/index.md'
         'Describe+SII+(Strengths,+Improvements,+Insights).md': 'https://processeducation.org/PD/4_1_9.pdf'
+        'Home.md': 'index.md'
 
 theme:
   name: material
