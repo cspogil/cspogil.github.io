@@ -30,6 +30,16 @@
   background-color: var(--md-code-bg-color);
 }
 
+.md-typeset .compact table:not([class])    {
+  border-collapse: collapse;
+  font-size: 90%;
+  line-height: 1.1em;
+}
+.md-typeset .compact table:not([class]) th,
+.md-typeset .compact table:not([class]) td {
+  padding: 0.1em 0.5em;
+}
+
 /* relative font sizes */
 
 .smaller {

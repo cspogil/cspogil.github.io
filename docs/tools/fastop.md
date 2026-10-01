@@ -37,7 +37,7 @@ while **Action** codes *what* students and teachers do.
 
 Thus, most observations will have 1+ focus codes and 1+ action codes for both students and teachers.
 
-<span style="line-height:0.75em;">
+<div class="compact" markdown> <!-- affects mkdocs but not VSCodium preview -->
 
 |   Focus Code | Student Focus                         | Teacher Focus                    |
 | -----------: | ------------------------------------- | ------------------------------   |
@@ -58,14 +58,14 @@ Thus, most observations will have 1+ focus codes and 1+ action codes for both st
 | Watch/Listen | Watch or listen (e.g., to lecture or presentation).                      |
 |         Work | Write, take notes, work on computer, etc. (not ask, answer, or discuss). |
 
-</span>
+</div>
 
 
 ## What FASTOP codes are typical for various classroom activities?
 
 This table shows the expected FASTOP codes for various classroom activities.
 
-<span style="line-height:1em;">
+<div class="compact" markdown> <!-- affects mkdocs but not VSCodium preview -->
 
 | Activity                                               | Focus                                                   | Teacher (Instructor) Action                                     | Focus                                                | Student Action                                                 |
 | -----------------------------------------------------: | ------------------------------------------------------: | --------------------------------------------------------------- | ---------------------------------------------------: | -------------------------------------------------------------- |
@@ -74,7 +74,7 @@ This table shows the expected FASTOP codes for various classroom activities.
 | POGIL a. teamwork<br/><br/>b. report out               | Class<br/>Team <br/>Class                               | Watch<br/>Discuss <br/>Ask, Discuss                             | <br/>Team <br/>Class                                 | <br/>Discuss, Work <br/>Answer                                 |
 | Peer Instruction a.<br/>b.<br/>c.<br/>d.<br/>e.<br/>f. | Class<br/>Class<br/>Class<br/>Class<br/>Class<br/>Class | Speak, Ask<br/>Watch<br/>Speak, Ask<br/>Watch<br/>Ask<br/>Speak | Class<br/>Solo<br/>Class<br/>Pair<br/>Solo<br/>Class | Listen<br/>Answer<br/>Listen<br/>Discuss<br/>Answer<br/>Listen |
 
-</span>
+</div>
 
 See below for a table and plots of FASTOP codes from real classrooms.
 
@@ -93,7 +93,7 @@ while roughly half of students *watch/listen* and the rest are *distracted* or *
 In constrast, during POGIL teamwork, the teacher *watches/listens* roughly half of the time, but also *discusses*, *asks*, and *manages*, 
 while students *discuss* and *work* roughly two-thirds of the time. 
 
-<span style="font-size:1em; line-height:0.5em;">
+<div class="compact" markdown> <!-- affects mkdocs but not VSCodium preview -->
 
 |    Focus or Action | Code         | Trad. Lecture | Inter. Lecture | Comp. Lab | POGIL Team | POGIL Report |
 | -----------------: | -----------: | ------------: | -------------: | --------: | ---------: | -----------: |
@@ -128,7 +128,7 @@ while students *discuss* and *work* roughly two-thirds of the time.
 |                    | Work         |               |                |           |          * |              |
 |                    |              |               |                |           |            |              |
 
-</span>
+</div>
 
 The plot below shows actions and focus for instructors and students during an interactive lecture session: 
 ![alt text](img/FASTOP-IL-stack.png)
