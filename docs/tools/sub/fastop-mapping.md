@@ -1,5 +1,6 @@
 # FASTOP Codes & Mappings
 
+<!-- 
 ## FASTOP Codes (some abbreviated)
 
 |     Focus |        |        |        |         |         |
@@ -10,9 +11,13 @@
 |    Action |          |       |           |         |          |            |          |        |
 |     ----: | ----     | ----  | ----      | ----    | ----     |----        | ----     | ----   |
 | *Student* | S-Answer | S-Ask | S-Discuss | S-Speak | S-Manage | S-Distract | S-Listen | S-Work |
-| *Teacher* | I-Answer | I-Ask | I-Discuss | I-Speak | I-Manage | I-Distract | I-Listen | I-Work |
+| *Teacher* | I-Answer | I-Ask | I-Discuss | I-Speak | I-Manage | I-Distract | I-Listen | I-Work | 
+
+-->
 
 ## OPTIC ↔ FASTOP
+
+<span style="line-height:0.75em;">
 
 | OPTIC     | Classroom Interactions                                                                                                                                                      | FASTOP                                              |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
@@ -32,7 +37,12 @@
 | RO        | Within the learning activity, information is being shared by all students or teams <br/>demonstrating their constructed knowledge (e.g., clickers, whiteboards, verbal).    | S-Class, S-Answer; <br/>I-Class, I-Ask              |
 | CM        | Instructor is involved in classroom management/administration tasks. <br/>Not related to content. Includes instructor’s management of time or pacing.                       | I-Class, I-Manage                                   |
 
+</span>
+
+
 ## COPUS ↔ FASTOP
+
+<span style="line-height:0.75em;">
 
 | COPUS     | Students are Doing                                                                                                                           | FASTOP                                                  |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -62,3 +72,5 @@
 | Adm       | Administration (assign homework, return tests, etc.).                                                                                         | I-Class, I-Manage                                       |
 | W         | Wait when there is an opportunity to interact with <br/>or observe/listen to student or group activities and the instructor does not do so.  | I-Class, I-Listen / I-Distract?                         |
 | O         | Other - explain in comments.                                                                                                                 | —                                                       |
+
+</span>
