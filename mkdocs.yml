@@ -13,7 +13,7 @@ not_in_nav: |
 #       find incomplete pages, broken links, typos, etc.
 
 extra_css:
-  - extra.css?v=2026-03-20
+  - extra.css?v=2026-10-01
 
 watch:
   - includes

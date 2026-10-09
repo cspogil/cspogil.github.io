@@ -17,9 +17,9 @@
 ## How to use FASTOP? (Quick Start)
 
 - Decide how to collect data:
-    - Download & print the [blank grid](img/FASTOP-blank-grid.xlsx).
-    - Use the [OPTIC App](https://optic.kussmaul.org).
-- Check out a [sample datafile](). <!-- INCOMPLETE -->
+    - Download & print the [:material-file-excel: blank grid](img/FASTOP-blank-grid.xlsx).
+    - Use the [:material-application: OPTIC App](https://optic.kussmaul.org).
+- Check out a [:material-database: sample datafile](). <!-- INCOMPLETE -->
 
 
 ## Who could use FASTOP?
@@ -130,13 +130,13 @@ while students *discuss* and *work* roughly two-thirds of the time.
 
 </div>
 
-The plot below shows actions and focus for instructors and students during an interactive lecture session: 
-![alt text](img/FASTOP-IL-stack.png)
-![alt text](img/FASTOP-IL-bar.png)
+The plot below shows actions and focus for instructors and students during an interactive lecture session:
+![Stacked proportion bars of instructor and student action and focus codes for the interactive lecture, showing that students mostly watched and focus was mostly on the whole class.](img/FASTOP-IL-stack.png)
+![Horizontal bar charts of instructor and student action and focus codes for the interactive lecture, where watching was the most common action for both and whole-class focus dominated.](img/FASTOP-IL-bar.png)
 
-The plot below show actions and focus for instructors and students during a POGIL session: 
-![alt text](img/FASTOP-POGIL-stack.png)
-![alt text](img/FASTOP-POGIL-bar.png)
+The plot below show actions and focus for instructors and students during a POGIL session:
+![Stacked proportion bars of instructor and student action and focus codes for the POGIL session, showing student actions split among watching, discussing, and working, with focus mostly on solo and team work.](img/FASTOP-POGIL-stack.png)
+![Horizontal bar charts of instructor and student action and focus codes for the POGIL session, where student discussing and working nearly matched watching and team focus was most common.](img/FASTOP-POGIL-bar.png)
 
 
 ## How does FASTOP differ from other observation protocols?
@@ -153,18 +153,30 @@ For example, students could work with a team, a partner, or alone;
 the instructor could speak to a single student, a team, or the whole class.
 
 Thus, most COPUS and OPTIC codes map to multiple FASTOP codes.
-Here is a [draft mapping between OPTIC, COPUS, and FASTOP](fastop-mapping.md).
+Here is a [:material-map: draft mapping between OPTIC, COPUS, and FASTOP](fastop-mapping.md).
 
 
 ## How to learn more?
 
 - FASTOP
-    - C Kussmaul, PB Campbell, M Torres-Demas, C Mayfield, HH Hu (2023) [Introducing the Focus & Action of Students & Teachers Observation Protocol (FASTOP)](../research/2023/kussmaul-2023-fastop.md). *ASEE Annual Conference*. ([ASEE link](https://peer.asee.org/43856))
-    - C Mayfield, C Kussmaul, HH Hu, PB Campbell (2024) [Exploring the impact of POGIL on student engagement](../research/2024/mayfield-2024-engage.md). *IUSE Summit*.
-    - C Mayfield, PB Campbell, HH Hu, C Kussmaul (2025) [Exploring the impact of POGIL on student engagement](../research/2025/mayfield-2025-engage.md). *National Conference to Advance POGIL Practice (NCAPP)*.
+    - C Kussmaul, PB Campbell, M Torres-Demas, C Mayfield, HH Hu (2023).
+      [Introducing the Focus & Action of Students & Teachers Observation Protocol (FASTOP)](../research/2023/kussmaul-2023-fastop.md).
+      *ASEE Annual Conference*. ([ASEE link](https://peer.asee.org/43856))
+    - C Mayfield, C Kussmaul, HH Hu, PB Campbell (2024).
+      [Exploring the impact of POGIL on student engagement](../research/2024/mayfield-2024-engage.md).
+      *IUSE Summit*.
+    - C Mayfield, PB Campbell, HH Hu, C Kussmaul (2025).
+      [Exploring the impact of POGIL on student engagement](../research/2025/mayfield-2025-engage.md).
+      *National Conference to Advance POGIL Practice (NCAPP)*.
 - other observation protocols
-    - RF Frey, U Halliday, S Radford, S Wachowski (2019) [Development of an observation protocol for teaching in interactive classrooms (OPTIC)](https://www.morressier.com/o/event/5fc642c603137aa525863c7c/article/5fc643a22d78d1fec4668269). *Abstracts of Papers of the American Chemical Society*.
-    - MK Smith, FHM Jones, SL Gilbert, CE Wieman (2013) [The Classroom Observation Protocol for Undergraduate STEM (COPUS)](https://doi.org/10.1187/cbe.13-08-0154). *CBE - Life Sciences Education (LSE)* 12(4):618–627.
-    - D Sawada, MD Piburn, E Judson, et al. (2002) [Measuring reform practices in science and mathematics classrooms: The Reformed Teaching Observation Protocol (RTOP)](https://doi.org/10.1111/j.1949-8594.2002.tb17883.x). *School Science & Mathematics* 102(6):245–253.
-- comments or questions? 
-    - contact [Clif Kussmaul](mailto:clif@kussmaul.org) or [Pat Campbell](mailto:campbell@campbell-kibler.com)
+    - RF Frey, U Halliday, S Radford, S Wachowski (2019).
+      [Development of an observation protocol for teaching in interactive classrooms (OPTIC)](https://www.morressier.com/o/event/5fc642c603137aa525863c7c/article/5fc643a22d78d1fec4668269)
+      *Abstracts of Papers of the American Chemical Society*.
+    - MK Smith, FHM Jones, SL Gilbert, CE Wieman (2013).
+      [The Classroom Observation Protocol for Undergraduate STEM (COPUS)](https://doi.org/10.1187/cbe.13-08-0154).
+      *CBE - Life Sciences Education (LSE)* 12(4):618–627.
+    - D Sawada, MD Piburn, E Judson, et al. (2002).
+      [Measuring reform practices in science and mathematics classrooms: The Reformed Teaching Observation Protocol (RTOP)](https://doi.org/10.1111/j.1949-8594.2002.tb17883.x).
+      *School Science & Mathematics* 102(6):245–253.
+- comments or questions?
+    - contact Clif Kussmaul or Pat Campbell
