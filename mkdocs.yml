@@ -2,6 +2,9 @@ site_name: CS-POGIL
 site_url: https://cspogil.github.io/
 repo_url: https://github.com/cspogil/cspogil.github.io
 
+not_in_nav: |
+  tools/fastop-mapping.md
+
 # extra:
 #   consent:
 #     title: Under Construction

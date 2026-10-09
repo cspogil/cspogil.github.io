@@ -1,3 +1,7 @@
+---
+parent: tools/fastop.md
+---
+
 # FASTOP Codes & Mappings
 
 <!-- 
