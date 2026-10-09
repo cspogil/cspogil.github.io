@@ -178,13 +178,16 @@ def write_entry(entry, out):
         if fkey in ["abstract", "contents"]:
             continue
         out.write(f"{fkey} | ")
-        if fkey != "url":
-            out.write(f"{field.value}\n")
-        else:
+        if fkey == "url":
             # Abbreviate the URL to allow text wrapping
             url = field.value
             abbr = abbreviate(url)
             out.write(f"[{abbr}]({url})\n")
+        elif fkey == "file":
+            path = field.value
+            out.write(f"[{path}]({path})\n")
+        else:
+            out.write(f"{field.value}\n")
 
 
 def write_page(entry, out):
