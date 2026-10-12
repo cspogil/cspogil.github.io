@@ -16,11 +16,26 @@ URLS = set()
 
 
 def on_files(files, config):
-    URLS.clear()
     """Called after the files collection is populated from the docs_dir."""
+    URLS.clear()
     for file in files:
         if file.src_uri.endswith(".md"):
             URLS.add(file.url)
+
+
+def on_page_markdown(markdown, page, config, files):
+    """Assign a nav parent to pages that are not_in_nav."""
+    target = page.meta.get("parent")
+    if not target:
+        return
+    # Get the parent file and page from the target path.
+    parent_file = files.get_file_from_path(target)
+    parent_page = parent_file.page
+    # Use the parent page's section as this page's parent.
+    page.parent = parent_page.parent
+    # Link the footer back to the parent page and forward.
+    page.previous_page = parent_page
+    page.next_page = parent_page.next_page
 
 
 def insert_link(bread, href, title, exists=True):
@@ -42,7 +57,7 @@ def dirname(url):
 
 def on_post_page(output, page, config):
     """Called after the template is rendered."""
-    if not page.is_homepage:
+    if page.parent:  # not page.is_homepage
 
         # Build the breadcrumb links (html code)
         bread = ""
@@ -59,7 +74,7 @@ def on_post_page(output, page, config):
             url = dirname(url)
 
         # Append page's filename (if not index page)
-        if page.title != page.parent.title:
+        if not page.is_index:  # page.title != page.parent.title:
             bread += SEP + "  " + page.url.split("/")[-2] + "\n"
 
         # Insert home page at the front

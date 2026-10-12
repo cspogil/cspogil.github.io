@@ -11,3 +11,7 @@
 {% if url %}
 **URL:** {{ url }}
 {% endif %}
+
+{% if file %}
+**File:** [{{ file }}]({{ file }})
+{% endif %}
