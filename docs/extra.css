@@ -29,6 +29,17 @@
 .md-typeset table:not([class]) th {
   background-color: var(--md-code-bg-color);
 }
+ 
+/* .md-typeset for mkdocs; other for VSCodium preview */
+.md-typeset .compact table:not([class]), .compact table {
+  border-collapse: collapse;
+  font-size: 80%;
+  line-height: 1.1em;
+}
+.md-typeset .compact table:not([class]) th, .compact table th,
+.md-typeset .compact table:not([class]) td, .compact table td {
+  padding: 0.1em 0.5em;
+}
 
 /* relative font sizes */
 
