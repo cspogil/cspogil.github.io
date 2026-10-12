@@ -16,7 +16,7 @@ https://workspace.google.com/u/0/marketplace/app/classroom_activity_utility/7826
     * Google warns that CAU is not verified. Click “Advanced”, then “Go to Classroom Activity Utility (unsafe)”.
     * Check all three permissions (see **Permissions** below). If any are unchecked, CAU asks again when you use it.
 2. Create a document with a classroom activity, or import from other formats (e.g. Microsoft Word).
-3. Use a specific paragraph style (**Heading 4**, by default) for answers, teacher notes, and other text that should be in the teacher version but not the student version. In Google Docs you can change the formatting for a paragraph style, and it often makes sense for this style to be the same size & font as normal text, but with a different color or format (italics, underline, etc).
+3. Use a specific paragraph style (**Heading 4**, by default) for answers, teacher notes, and other text that should be in the teacher version but not the student version. In Google Docs you can change the formatting for a paragraph style, and it often makes sense for this style to be the same size & font as normal text, but with a different color or format (italics, underline, etc). (answers become blank space, so students have room to write)
 4. Optionally, add tags to identify text at the start and end of the document that should also be removed (see **Document Structure** below).
 5. From Extensions > Classroom Activity Utility, select “Make student version”, “Make teacher version”, etc.
 6. The new versions should appear in the same folder as the author’s master version.
@@ -26,9 +26,9 @@ https://workspace.google.com/u/0/marketplace/app/classroom_activity_utility/7826
     * To use several tabs, open Settings and check “Process all tabs (not just current) with author suffix”. CAU then keeps every tab whose title ends with the author suffix (“(Author)” by default).
     * In each kept tab title, CAU replaces the author suffix (e.g. “Activity (Author)” becomes “Activity (Student)”).
     * If no tab title ends with the suffix, CAU shows an error and makes no files. If the setting is off but other tab titles end with the suffix, CAU asks before continuing.
-    * Tags such as `{{TITLE}}` are replaced separately in each tab, including its headers and footers.
+    * Tags such as `{{TABTITLE}}` are replaced separately in each tab, including its headers and footers.
 
-See **Advanced Features** below for other features in development.
+See **Tags** and **Advanced Features** below for more features.
 
 
 ### Permissions
@@ -73,13 +73,71 @@ The following table shows the author version (far left), and the resulting versi
 | **Revision History**                                                                                                                                 |                                                                                                                                                      |                                                       | *content for author only (after `TEACHER STOP`)*                       |
 
 
+Note: Some authors prefer the structure below, with student content first, then all teacher content, and finally all author content.
+(With this structure, all versions use the same page numbers.)
+
+| main body<br/>of activity | `{{STUDENT STOP}}` | final text<br/>for teachers | `{{TEACHER STOP}}` | final text<br/>for author |
+| ------------------------- | ------------------ | --------------------------- | ------------------ | ------------------------- |
+
+
+## Tags
+
+If “Replace tags (including IMPORT)” is checked in Settings, CAU replaces tags in the new versions, in the body, headers, and footers of each kept tab. CAU never changes tags in the author’s document.
+
+### Text tags
+
+| Tag                                                   | Replaced with                                             |
+| ----------------------------------------------------- | --------------------------------------------------------- |
+| `{{DATE}}`                                            | current date (e.g. 2026-10-07)                            |
+| `{{YEAR}}`                                            | current year                                              |
+| `{{DOCNAME}}`                                         | name of the new file (e.g. “Loops (Student)”)             |
+| `{{DOCTITLE}}`                                        | first paragraph in Title style, in the first kept tab     |
+| `{{TABNAME}}`                                         | title of the tab in the new file (e.g. “Q3 (Student)”)    |
+| `{{TABTITLE}}`                                        | first paragraph in Title style, in this tab               |
+| `{{CC-BY}}`<br/>`{{CC-BY-NC}}`<br/>`{{CC-BY-NC-SA}}`  | Creative Commons license, with image and link             |
+| `{{CS-POGIL}}`<br/>`{{POGIL}}`                        | project name, with link                                   |
+| `{{IMPORT ref}}`                                      | imported content (see below)                              |
+
+`{{NAME}}` and `{{TITLE}}` are older names for `{{DOCNAME}}` and `{{TABTITLE}}`, and still work.
+
+### Importing content
+
+`{{IMPORT ref}}` is replaced by the contents of a tab from another Google Doc. `ref` can be:
+
+* the doc’s URL, e.g. `https://docs.google.com/document/d/ID/edit?tab=t.abc123`
+* the doc’s ID, optionally followed by a tab ID, e.g. `ID?tab=t.abc123`
+* a smart chip: type `{{IMPORT `, insert a chip for the doc, then type `}}`
+
+Rules:
+
+* The tag must be the only content of its paragraph, in the body (not in a header, footer, table, or list).
+* If the doc has more than one tab, `ref` must include the tab ID. Only that tab is imported, not its child tabs.
+* Imported content must not contain START or STOP tags.
+* Imported content is processed like the rest of the activity: answers are removed from the student version, and text tags are replaced. IMPORT tags in imported content are not replaced.
+* You need at least view access to the imported doc.
+* A smart chip shows the doc’s title, but not the tab. Use Check (below) to see which tab will be imported.
+
+If an import fails, CAU leaves the tag in place, finishes the new version, and then lists each problem under “Import errors”.
+
+Some formatting can’t be imported exactly:
+
+* dash bullets and checklists become round bullets
+* footnotes and table of contents are removed (CAU reports these)
+
+
 ## Advanced Features
 
-CAU has other features in development. If you are eager to use them or have comments or suggestions, please contact Clif Kussmaul (clif@kussmaul.org).
+If Settings > “Show Check document menu item” is checked, 
+Extensions > Classroom Activity Utility > Check document shows a sidebar with results for each tab:
 
-* CAU can replace tags with values, in the body, headers, and footers:
-    `{{DATE}}` (current date), `{{YEAR}}`, `{{NAME}}` (file name), `{{TITLE}}` (first Title paragraph), `{{NEWLINE}}`,
-    `{{CC-BY}}`, `{{CC-BY-NC}}`, `{{CC-BY-NC-SA}}` (Creative Commons licenses with image and link),
-    `{{CS-POGIL}}`, `{{POGIL}}` (project names with links).
-* CAU can compute readability scores and flag text that may be difficult to read.
-* CAU can check for some problems with colors, fonts, image size, etc.
+* **Imports:** each IMPORT tag, with the doc and tab it imports, or the error.
+* **Unknown tags:** tags CAU didn’t recognize (e.g. misspelled). If tag replacement is off, this lists every tag that was not replaced.
+* Readability scores and flagged text that may be difficult to read.
+* START/STOP tags (duplicates, and how much text each removes).
+* Heading counts, header and footer length.
+* Image size, small fonts.
+
+Check also creates a “… - Check” file: the full document with imports done and tags replaced, and flagged text highlighted.
+
+CAU has other features in development. 
+If you are eager to use them or have comments or suggestions, please contact Clif Kussmaul (clif@kussmaul.org).
