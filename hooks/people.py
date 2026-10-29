@@ -51,7 +51,7 @@ def on_files(files, config):
 def on_page_markdown(markdown, page, config, files):
     """Called after the page's markdown is loaded from the source file."""
 
-    # Build the people index page (now done by auto-index.js)
+    # Build the people index page using grid cards
     if page.url == "people/":
         out = io.StringIO()
         out.write('<div class="grid cards" markdown="1">\n')

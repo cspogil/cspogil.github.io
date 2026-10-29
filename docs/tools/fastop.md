@@ -1,12 +1,6 @@
-# Focus and Action of Students and Teachers Observation Protocol (FASTOP) <!-- omit in toc -->
-- [What is FASTOP?](#what-is-fastop)
-- [How to use FASTOP? (Quick Start)](#how-to-use-fastop-quick-start)
-- [Who could use FASTOP?](#who-could-use-fastop)
-- [What are the FASTOP codes?](#what-are-the-fastop-codes)
-- [What FASTOP codes are typical for various classroom activities?](#what-fastop-codes-are-typical-for-various-classroom-activities)
-- [What can analysis of FASTOP data show?](#what-can-analysis-of-fastop-data-show)
-- [How does FASTOP differ from other observation protocols?](#how-does-fastop-differ-from-other-observation-protocols)
-- [How to learn more?](#how-to-learn-more)
+# Focus and Action of Students and Teachers Observation Protocol (FASTOP)
+
+<script src="../../auto-toc.js"></script>
 
 
 ## What is FASTOP?
@@ -32,7 +26,7 @@
 
 ## What are the FASTOP codes?
 
-**Focus**  codes *who* students and teachers interact with, 
+**Focus**  codes *who* students and teachers interact with,
 while **Action** codes *what* students and teachers do.
 
 Thus, most observations will have 1+ focus codes and 1+ action codes for both students and teachers.
@@ -81,17 +75,17 @@ See below for a table and plots of FASTOP codes from real classrooms.
 
 ## What can analysis of FASTOP data show?
 
-This table summarizes some preliminary data. 
-Each row is a FASTOP code, grouped into student and teacher *focus*, and student and teacher *action*. 
+This table summarizes some preliminary data.
+Each row is a FASTOP code, grouped into student and teacher *focus*, and student and teacher *action*.
 Each column is a classroom activity: traditional lecture, interactive lecture, computer laboratory, POGIL team work, and POGIL report out.
 Real classroom observation sessions were segmented based on the observed activity.
 Code occurences were counted, and then normalized by the number of codes, so each block sums to 100%.
 For each activity, the column lists the weighted averages; for clarity, values <10% have been replaced with an asterisk.
 
-Thus, in a traditional lecture, the teacher mostly *speaks* to the whole *class*, 
+Thus, in a traditional lecture, the teacher mostly *speaks* to the whole *class*,
 while roughly half of students *watch/listen* and the rest are *distracted* or *work*.
-In constrast, during POGIL teamwork, the teacher *watches/listens* roughly half of the time, but also *discusses*, *asks*, and *manages*, 
-while students *discuss* and *work* roughly two-thirds of the time. 
+In constrast, during POGIL teamwork, the teacher *watches/listens* roughly half of the time, but also *discusses*, *asks*, and *manages*,
+while students *discuss* and *work* roughly two-thirds of the time.
 
 <div class="compact" markdown> <!-- affects mkdocs but not VSCodium preview -->
 
@@ -141,11 +135,11 @@ The plot below show actions and focus for instructors and students during a POGI
 
 ## How does FASTOP differ from other observation protocols?
 
-An observation protocol embodies decisions about what will be observed. 
+An observation protocol embodies decisions about what will be observed.
 For example, the [*Classroom Observation Protocol for Undergraduate STEM (COPUS)*](http://www.cwsei.ubc.ca/resources/tools/copus.html) focuses on practices in *Peer Instruction*.
 Similarly, the [*Observation Protocol for Teaching in Interactive Classes (OPTIC)*](https://pogil.org/pogil-tools/optic) focuses on practices in [*Process Oriented Guided Inquiry Learning (POGIL)*](https://pogil.org) and other forms of collaborative small-group learning.
 
-We wanted to underestand what actually happens in a variety of class sessions, 
+We wanted to underestand what actually happens in a variety of class sessions,
 including lectures, lab activities, Peer Instruction, POGIL, etc.
 Specifically, we wanted to analyze *what* students and teachers did (their **action**)
 and *who* they interacted with (their **focus**).

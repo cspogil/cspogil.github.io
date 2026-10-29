@@ -5,7 +5,7 @@
   if (navList) {
     const article = document.querySelector('article');
     const section = document.createElement("section");
-    section.className = "auto-index";
+    section.className = "auto-nav";
     const clone = navList.cloneNode(true);
     article.appendChild(section);
     section.appendChild(clone);
