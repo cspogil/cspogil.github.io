@@ -7,28 +7,48 @@
 
 **FASTOP** is a classroom observation protocol intended to monitor the **focus** (e.g., solo, pair, team, or whole class) and **action** (e.g., discuss, speak/present, watch/listen, or distracted) of both **students** and **teachers** (instructors).
 
+Many observation protocols combine group size and activity into a single code.
+For example, COPUS has a code for "discuss clicker question in groups."
+FASTOP records these separately: *who* is involved (focus) and *what* they are doing (action).
+As a result, the same small set of codes works across many kinds of classes,
+including lectures, labs, Peer Instruction, and POGIL.
+One collaborator described FASTOP as an "assembly language" for observations:
+it records lower-level practices that can be combined to describe higher-level practices.
 
-## How to use FASTOP? (Quick Start)
 
-- Decide how to collect data:
-    - Download & print the [:material-file-excel: blank grid](img/FASTOP-blank-grid.xlsx).
-    - Use the [:material-application: OPTIC App](https://optic.kussmaul.org).
-- Check out a [:material-database: sample datafile](). <!-- INCOMPLETE -->
+## Who could use FASTOP?
+
+- researchers who compare what happens in classes that use different pedagogies
+- researchers who study how faithfully a pedagogy (e.g., POGIL) is implemented
+- researchers who combine classroom observations with student or instructor surveys
+- coaches, mentors, and instructors who want data on what students actually do in class
+
+
+## What is in the FASTOP toolbox?
+
+- Blank observation worksheets
+  (see [How to conduct a FASTOP observation?](#how-to-conduct-a-fastop-observation) for the two kinds):
+    - Student-level:
+      [:material-file-pdf-box: printable PDF](img/FASTOP-student-level.pdf) or
+      [:material-file-excel: spreadsheet](img/FASTOP-student-level.xlsx)
+    - Class-level:
+      [:material-file-pdf-box: printable PDF](img/FASTOP-class-level.pdf) or
+      [:material-file-excel: spreadsheet](img/FASTOP-class-level.xlsx)
+- The [:material-application: OPTIC App](https://optic.kussmaul.org),
+  which supports FASTOP on a laptop or tablet and exports the data as a CSV file.
+- Sample data from two class-level observations in Spring 2024:
+  [:material-database: POGIL session](img/FASTOP-sample-POGIL.xlsx) and
+  [:material-database: interactive lecture session](img/FASTOP-sample-IntLec.xlsx).
+  Each file shows the codes for each minute (in the same format as the blank spreadsheet)
+  and the individual events recorded by the OPTIC App.
+  Our [SIGCSE 2025 paper](../research/2025/campbell-2025-engage.md) analyzes similar data from earlier observations.
 
 
 ## Public Data Release
 
 FASTOP was developed as part of an NSF-funded project, "Exploring the Impact of POGIL on Student Engagement and Conceptual Understanding" ([DUE 2216454](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2216454)).
-All data we collected in Spring 2023 and Spring 2024 are available for other researchers to build on our work.
-Please contact Chris Mayfield for access to the public data files.
-
-
-## Who could use FASTOP?
-
-- coaches and mentors of learner-centered practitioners
-- experienced practitioners who want data on their classes
-- administrators who evaluate teaching
-- researchers who study learner-centered classrooms
+Anonymized data we collected in Spring 2023 and Spring 2024 are available on request, so other researchers can build on our work.
+Please contact Chris Mayfield to request access to the data files.
 
 
 ## What are the FASTOP codes?
@@ -62,18 +82,93 @@ Thus, most observations will have 1+ focus codes and 1+ action codes for both st
 </div>
 
 
+## How to conduct a FASTOP observation?
+
+In our research, we used FASTOP in two kinds of observations:
+
+- **Student-level observations** (live, in the classroom).
+  The observer follows a sample of 8–12 specific students, plus the instructor.
+  Every minute, the observer records the *action* codes for each student and for the instructor.
+  Focus codes are not recorded.
+- **Class-level observations** (from a video recording of the entire class).
+  The observer codes the students as a group and the instructor.
+  Every minute, the observer records both the *focus* and *action* codes for students and for the instructor.
+
+In both kinds of observations:
+
+- Record every code that applies during each one-minute interval.
+  For example, a student might *Work* and *Discuss* in the same minute.
+- Write a brief note whenever the class switches to a different activity
+  (e.g., from lecture to teamwork), so the session can be split into segments later.
+- Note anything unusual, such as technical problems or interruptions.
+
+For student-level observations, we used the following IRB-approved procedure to protect student privacy:
+
+1. Near the start of the term, students watched a short video describing the study
+   and were invited to complete an informed consent form.
+2. A colleague (not the instructor) collected the forms, so the instructor did not know which students consented.
+3. The colleague used the list of consenting students and the instructor's team assignments
+   to select the students to observe, and gave the observer photos of those students.
+
+New observers should practice coding with classroom videos before observing a live class,
+and compare their codes with an experienced observer.
+
+
+## What are some tips for coding?
+
+Some codes can be difficult to tell apart.
+Here are some guidelines for common situations:
+
+- **Ask, Answer, or Discuss?**
+  If one person asks a question and another person answers, code *Ask* and *Answer*.
+  If the conversation goes back and forth (more than one question and answer), code *Discuss*.
+- **Speak or Ask?**
+  If the teacher presents without interaction, code *Speak*.
+  If the teacher poses a question and waits for students to respond, code *Ask*.
+- **Work or Watch/Listen?**
+  Students who listen to a lecture are *Watch/Listen* with focus *Class*.
+  Students who take notes or work on their own are *Work* with focus *Solo*.
+  If students do both during the same minute, code both.
+- **Teacher walking around the room?**
+  If the teacher monitors the class without talking to anyone, code *Watch/Listen* with focus *Class*.
+  If the teacher stops to talk with a team, code *Discuss* (or *Ask* or *Answer*) with focus *Team*.
+  If the teacher talks with two or more teams at the same time, use focus *Teams*.
+- **Not sure?**
+  Record the codes that seem closest, and write a note explaining what happened.
+
+In data files, codes are prefixed with **S-** (student) or **I-** (instructor),
+and *Watch/Listen* is abbreviated as *Watch* (e.g., `S-Watch`, `I-Speak`).
+
+
 ## What FASTOP codes are typical for various classroom activities?
 
 This table shows the expected FASTOP codes for various classroom activities.
+When a cell has multiple lines, each focus code is paired with the action code(s) on the same line.
+For example, during a traditional lecture, some students watch/listen as a whole class,
+some discuss in pairs, and some work alone or are distracted.
+
+POGIL classes alternate between two modes:
+teams work on an activity while the teacher monitors the class and interacts with teams,
+and the teacher has teams "report out" their answers to the whole class.
+Peer Instruction repeats a cycle of steps:
+(a) the teacher poses a question, (b) students answer individually,
+(c) the teacher presents the distribution of answers, (d) students discuss in pairs,
+(e) students answer individually again, and (f) the teacher again presents the answers.
 
 <div class="compact" markdown> <!-- affects mkdocs but not VSCodium preview -->
 
-| Activity                                               | Focus                                                   | Teacher (Instructor) Action                                     | Focus                                                | Student Action                                                 |
-| -----------------------------------------------------: | ------------------------------------------------------: | --------------------------------------------------------------- | ---------------------------------------------------: | -------------------------------------------------------------- |
-| Traditional Lecture                                    | Class                                                   | Speak                                                           | Class<br/>Pair<br/>Solo                              | Listen<br/>Discuss<br/>Work, Distracted                        |
-| Computer Laboratory                                    | Class<br/>Solo, Pair                                    | Watch<br/>Discuss                                               | Solo<br/>Pair                                        | Work<br/>Work, Discuss                                         |
-| POGIL a. teamwork<br/><br/>b. report out               | Class<br/>Team <br/>Class                               | Watch<br/>Discuss <br/>Ask, Discuss                             | <br/>Team <br/>Class                                 | <br/>Discuss, Work <br/>Answer                                 |
-| Peer Instruction a.<br/>b.<br/>c.<br/>d.<br/>e.<br/>f. | Class<br/>Class<br/>Class<br/>Class<br/>Class<br/>Class | Speak, Ask<br/>Watch<br/>Speak, Ask<br/>Watch<br/>Ask<br/>Speak | Class<br/>Solo<br/>Class<br/>Pair<br/>Solo<br/>Class | Listen<br/>Answer<br/>Listen<br/>Discuss<br/>Answer<br/>Listen |
+|                         Activity |        Teacher Focus | Teacher Action                 |           Student Focus | Student Action                                |
+| -------------------------------: | -------------------: | ------------------------------ | ----------------------: | --------------------------------------------- |
+|              Traditional Lecture |                Class | Speak                          | Class<br/>Pair<br/>Solo | Watch/Listen<br/>Discuss<br/>Work, Distracted |
+|              Computer Laboratory | Class<br/>Solo, Pair | Watch/Listen<br/>Discuss, Work |           Solo<br/>Pair | Work<br/>Work, Discuss                        |
+|                   POGIL Teamwork |       Class<br/>Team | Watch/Listen<br/>Discuss       |                    Team | Discuss, Work                                 |
+|                 POGIL Report Out |                Class | Ask, Discuss                   |                   Class | Answer                                        |
+|    Peer Instruction (a) question |                Class | Speak, Ask                     |                   Class | Watch/Listen                                  |
+|      Peer Instruction (b) answer |                Class | Watch/Listen                   |                    Solo | Answer                                        |
+|     Peer Instruction (c) results |                Class | Speak, Ask                     |                   Class | Watch/Listen                                  |
+|     Peer Instruction (d) discuss |                Class | Watch/Listen                   |                    Pair | Discuss                                       |
+|      Peer Instruction (e) answer |                Class | Ask                            |                    Solo | Answer                                        |
+|     Peer Instruction (f) results |                Class | Speak                          |                   Class | Watch/Listen                                  |
 
 </div>
 
@@ -82,17 +177,22 @@ See below for a table and plots of FASTOP codes from real classrooms.
 
 ## What can analysis of FASTOP data show?
 
-This table summarizes some preliminary data.
+This table summarizes preliminary results from our 2023 ASEE paper,
+based on 44 class sessions in 10 sections of 3 courses, taught by 6 instructors at 2 institutions.
 Each row is a FASTOP code, grouped into student and teacher *focus*, and student and teacher *action*.
 Each column is a classroom activity: traditional lecture, interactive lecture, computer laboratory, POGIL team work, and POGIL report out.
-Real classroom observation sessions were segmented based on the observed activity.
-Code occurences were counted, and then normalized by the number of codes, so each block sums to 100%.
-For each activity, the column lists the weighted averages; for clarity, values <10% have been replaced with an asterisk.
+
+To create the table, each observed session was split into segments based on the activity.
+Observers often marked more than one code in the same minute, so each code was weighted by 1/*k*,
+where *k* is the number of codes marked in that minute and category.
+For example, if a student was coded as both *Work* and *Discuss* in one minute, each code counted as 1/2.
+The weighted codes were then averaged across instructors and classes, so each block sums to 100%.
+For clarity, values <10% have been replaced with an asterisk.
 
 Thus, in a traditional lecture, the teacher mostly *speaks* to the whole *class*,
 while roughly half of students *watch/listen* and the rest are *distracted* or *work*.
-In constrast, during POGIL teamwork, the teacher *watches/listens* roughly half of the time, but also *discusses*, *asks*, and *manages*,
-while students *discuss* and *work* roughly two-thirds of the time.
+In contrast, during POGIL teamwork, the teacher *watches/listens* about 40% of the time, but also *discusses*, *asks*, and *manages*,
+while students *discuss* and *work* more than half of the time.
 
 <div class="compact" markdown> <!-- affects mkdocs but not VSCodium preview -->
 
@@ -116,7 +216,7 @@ while students *discuss* and *work* roughly two-thirds of the time.
 |                    | Speak        |               |                |         * |          * |            * |
 |                    | Manage       |               |                |           |          * |              |
 |                    | Distracted   |            24 |             13 |         * |          * |           11 |
-|                    | Watch/Listen |            51 |             40 |        16 |          9 |           45 |
+|                    | Watch/Listen |            51 |             40 |        16 |          * |           45 |
 |                    | Work         |            20 |             18 |        35 |         28 |           14 |
 |                    |              |               |                |           |            |              |
 | **Teacher Action** | Answer       |             * |                |        17 |          * |            * |
@@ -131,11 +231,15 @@ while students *discuss* and *work* roughly two-thirds of the time.
 
 </div>
 
-The plot below shows actions and focus for instructors and students during an interactive lecture session:
+The plots below show FASTOP data from two individual class sessions (not averages); courses are anonymized.
+For each session, the first plot shows the proportion of each code,
+and the second plot shows the number of times each code was recorded.
+
+Actions and focus for instructors and students during an interactive lecture session:
 ![Stacked proportion bars of instructor and student action and focus codes for the interactive lecture, showing that students mostly watched and focus was mostly on the whole class.](img/FASTOP-IL-stack.png)
 ![Horizontal bar charts of instructor and student action and focus codes for the interactive lecture, where watching was the most common action for both and whole-class focus dominated.](img/FASTOP-IL-bar.png)
 
-The plot below show actions and focus for instructors and students during a POGIL session:
+Actions and focus for instructors and students during a POGIL session:
 ![Stacked proportion bars of instructor and student action and focus codes for the POGIL session, showing student actions split among watching, discussing, and working, with focus mostly on solo and team work.](img/FASTOP-POGIL-stack.png)
 ![Horizontal bar charts of instructor and student action and focus codes for the POGIL session, where student discussing and working nearly matched watching and team focus was most common.](img/FASTOP-POGIL-bar.png)
 
@@ -144,9 +248,9 @@ The plot below show actions and focus for instructors and students during a POGI
 
 An observation protocol embodies decisions about what will be observed.
 For example, the [*Classroom Observation Protocol for Undergraduate STEM (COPUS)*](http://www.cwsei.ubc.ca/resources/tools/copus.html) focuses on practices in *Peer Instruction*.
-Similarly, the [*Observation Protocol for Teaching in Interactive Classes (OPTIC)*](https://pogil.org/pogil-tools/optic) focuses on practices in [*Process Oriented Guided Inquiry Learning (POGIL)*](https://pogil.org) and other forms of collaborative small-group learning.
+Similarly, the [*Observation Protocol for Teaching in Interactive Classrooms (OPTIC)*](https://pogil.org/pogil-tools/optic) focuses on practices in [*Process Oriented Guided Inquiry Learning (POGIL)*](https://pogil.org) and other forms of collaborative small-group learning.
 
-We wanted to underestand what actually happens in a variety of class sessions,
+We wanted to understand what actually happens in a variety of class sessions,
 including lectures, lab activities, Peer Instruction, POGIL, etc.
 Specifically, we wanted to analyze *what* students and teachers did (their **action**)
 and *who* they interacted with (their **focus**).
@@ -166,6 +270,9 @@ Here is a [:material-map: draft mapping between OPTIC, COPUS, and FASTOP](fastop
     - C Mayfield, C Kussmaul, HH Hu, PB Campbell (2024).
       [Exploring the impact of POGIL on student engagement](../research/2024/mayfield-2024-engage.md).
       *IUSE Summit*.
+    - PB Campbell, C Kussmaul, C Mayfield, HH Hu, S Campbell-Mortman (2025).
+      [Variation in engagement behaviors among student-centered pedagogies](../research/2025/campbell-2025-engage.md).
+      *ACM Technical Symposium on Computer Science Education (SIGCSE TS)*. ([ACM link](https://doi.org/10.1145/3641554.3701894))
     - C Mayfield, PB Campbell, HH Hu, C Kussmaul (2025).
       [Exploring the impact of POGIL on student engagement](../research/2025/mayfield-2025-engage.md).
       *National Conference to Advance POGIL Practice (NCAPP)*.
