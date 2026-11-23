@@ -47,8 +47,8 @@ it records lower-level practices that can be combined to describe higher-level p
 ## Public Data Release
 
 FASTOP was developed as part of an NSF-funded project, "Exploring the Impact of POGIL on Student Engagement and Conceptual Understanding" ([DUE 2216454](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2216454)).
-All data we collected in Spring 2023 and Spring 2024 are available for other researchers to build on our work.
-Please contact Chris Mayfield for access to the public data files.
+Anonymized data we collected in Spring 2023 and Spring 2024 are available on request, so other researchers can build on our work.
+Please contact Chris Mayfield to request access to the data files.
 
 
 ## What are the FASTOP codes?
