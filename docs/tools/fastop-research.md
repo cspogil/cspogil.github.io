@@ -6,6 +6,9 @@ parent: tools/fastop.md
 
 <script src="../../auto-toc.js"></script>
 
+This page summarizes results from FASTOP observations of real classrooms,
+and explains how FASTOP relates to other observation protocols.
+For definitions of the codes, see [What are the FASTOP codes?](fastop.md#what-are-the-fastop-codes)
 
 ## What can analysis of FASTOP data show?
 

@@ -26,6 +26,11 @@ it records lower-level practices that can be combined to describe higher-level p
 
 ## What is in the FASTOP toolbox?
 
+- Guides on this site:
+    - [:material-clipboard-text: Observing with FASTOP](fastop-observing.md):
+      how to conduct an observation, coding tips, and typical codes for various classroom activities.
+    - [:material-chart-bar: FASTOP for Researchers](fastop-research.md):
+      results from real classrooms, and how FASTOP relates to other observation protocols.
 - Blank observation worksheets
   (see [How to conduct a FASTOP observation?](fastop-observing.md#how-to-conduct-a-fastop-observation) for the two kinds):
     - Student-level:

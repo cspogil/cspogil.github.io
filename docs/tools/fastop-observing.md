@@ -6,6 +6,9 @@ parent: tools/fastop.md
 
 <script src="../../auto-toc.js"></script>
 
+This page explains how to use FASTOP in a classroom.
+For definitions of the codes, see [What are the FASTOP codes?](fastop.md#what-are-the-fastop-codes)
+For blank worksheets and sample data, see [What is in the FASTOP toolbox?](fastop.md#what-is-in-the-fastop-toolbox)
 
 ## How to conduct a FASTOP observation?
 
