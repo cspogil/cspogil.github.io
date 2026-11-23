@@ -166,6 +166,9 @@ Here is a [:material-map: draft mapping between OPTIC, COPUS, and FASTOP](fastop
     - C Mayfield, C Kussmaul, HH Hu, PB Campbell (2024).
       [Exploring the impact of POGIL on student engagement](../research/2024/mayfield-2024-engage.md).
       *IUSE Summit*.
+    - PB Campbell, C Kussmaul, C Mayfield, HH Hu, S Campbell-Mortman (2025).
+      [Variation in engagement behaviors among student-centered pedagogies](../research/2025/campbell-2025-engage.md).
+      *ACM Technical Symposium on Computer Science Education (SIGCSE TS)*. ([ACM link](https://doi.org/10.1145/3641554.3701894))
     - C Mayfield, PB Campbell, HH Hu, C Kussmaul (2025).
       [Exploring the impact of POGIL on student engagement](../research/2025/mayfield-2025-engage.md).
       *National Conference to Advance POGIL Practice (NCAPP)*.
