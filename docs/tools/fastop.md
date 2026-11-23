@@ -86,13 +86,13 @@ This table summarizes some preliminary data.
 Each row is a FASTOP code, grouped into student and teacher *focus*, and student and teacher *action*.
 Each column is a classroom activity: traditional lecture, interactive lecture, computer laboratory, POGIL team work, and POGIL report out.
 Real classroom observation sessions were segmented based on the observed activity.
-Code occurences were counted, and then normalized by the number of codes, so each block sums to 100%.
+Code occurrences were counted, and then normalized by the number of codes, so each block sums to 100%.
 For each activity, the column lists the weighted averages; for clarity, values <10% have been replaced with an asterisk.
 
 Thus, in a traditional lecture, the teacher mostly *speaks* to the whole *class*,
 while roughly half of students *watch/listen* and the rest are *distracted* or *work*.
-In constrast, during POGIL teamwork, the teacher *watches/listens* roughly half of the time, but also *discusses*, *asks*, and *manages*,
-while students *discuss* and *work* roughly two-thirds of the time.
+In contrast, during POGIL teamwork, the teacher *watches/listens* about 40% of the time, but also *discusses*, *asks*, and *manages*,
+while students *discuss* and *work* more than half of the time.
 
 <div class="compact" markdown> <!-- affects mkdocs but not VSCodium preview -->
 
@@ -116,7 +116,7 @@ while students *discuss* and *work* roughly two-thirds of the time.
 |                    | Speak        |               |                |         * |          * |            * |
 |                    | Manage       |               |                |           |          * |              |
 |                    | Distracted   |            24 |             13 |         * |          * |           11 |
-|                    | Watch/Listen |            51 |             40 |        16 |          9 |           45 |
+|                    | Watch/Listen |            51 |             40 |        16 |          * |           45 |
 |                    | Work         |            20 |             18 |        35 |         28 |           14 |
 |                    |              |               |                |           |            |              |
 | **Teacher Action** | Answer       |             * |                |        17 |          * |            * |
@@ -135,7 +135,7 @@ The plot below shows actions and focus for instructors and students during an in
 ![Stacked proportion bars of instructor and student action and focus codes for the interactive lecture, showing that students mostly watched and focus was mostly on the whole class.](img/FASTOP-IL-stack.png)
 ![Horizontal bar charts of instructor and student action and focus codes for the interactive lecture, where watching was the most common action for both and whole-class focus dominated.](img/FASTOP-IL-bar.png)
 
-The plot below show actions and focus for instructors and students during a POGIL session:
+The plot below shows actions and focus for instructors and students during a POGIL session:
 ![Stacked proportion bars of instructor and student action and focus codes for the POGIL session, showing student actions split among watching, discussing, and working, with focus mostly on solo and team work.](img/FASTOP-POGIL-stack.png)
 ![Horizontal bar charts of instructor and student action and focus codes for the POGIL session, where student discussing and working nearly matched watching and team focus was most common.](img/FASTOP-POGIL-bar.png)
 
@@ -144,9 +144,9 @@ The plot below show actions and focus for instructors and students during a POGI
 
 An observation protocol embodies decisions about what will be observed.
 For example, the [*Classroom Observation Protocol for Undergraduate STEM (COPUS)*](http://www.cwsei.ubc.ca/resources/tools/copus.html) focuses on practices in *Peer Instruction*.
-Similarly, the [*Observation Protocol for Teaching in Interactive Classes (OPTIC)*](https://pogil.org/pogil-tools/optic) focuses on practices in [*Process Oriented Guided Inquiry Learning (POGIL)*](https://pogil.org) and other forms of collaborative small-group learning.
+Similarly, the [*Observation Protocol for Teaching in Interactive Classrooms (OPTIC)*](https://pogil.org/pogil-tools/optic) focuses on practices in [*Process Oriented Guided Inquiry Learning (POGIL)*](https://pogil.org) and other forms of collaborative small-group learning.
 
-We wanted to underestand what actually happens in a variety of class sessions,
+We wanted to understand what actually happens in a variety of class sessions,
 including lectures, lab activities, Peer Instruction, POGIL, etc.
 Specifically, we wanted to analyze *what* students and teachers did (their **action**)
 and *who* they interacted with (their **focus**).
