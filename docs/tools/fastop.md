@@ -70,6 +70,38 @@ Thus, most observations will have 1+ focus codes and 1+ action codes for both st
 </div>
 
 
+## How to conduct a FASTOP observation?
+
+In our research, we used FASTOP in two kinds of observations:
+
+- **Student-level observations** (live, in the classroom).
+  The observer follows a sample of 8–12 specific students, plus the instructor.
+  Every minute, the observer records the *action* codes for each student and for the instructor.
+  Focus codes are not recorded.
+- **Class-level observations** (from a video recording of the entire class).
+  The observer codes the students as a group and the instructor.
+  Every minute, the observer records both the *focus* and *action* codes for students and for the instructor.
+
+In both kinds of observations:
+
+- Record every code that applies during each one-minute interval.
+  For example, a student might *Work* and *Discuss* in the same minute.
+- Write a brief note whenever the class switches to a different activity
+  (e.g., from lecture to teamwork), so the session can be split into segments later.
+- Note anything unusual, such as technical problems or interruptions.
+
+For student-level observations, we used the following IRB-approved procedure to protect student privacy:
+
+1. Near the start of the term, students watched a short video describing the study
+   and were invited to complete an informed consent form.
+2. A colleague (not the instructor) collected the forms, so the instructor did not know which students consented.
+3. The colleague used the list of consenting students and the instructor's team assignments
+   to select the students to observe, and gave the observer photos of those students.
+
+New observers should practice coding with classroom videos before observing a live class,
+and compare their codes with an experienced observer.
+
+
 ## What FASTOP codes are typical for various classroom activities?
 
 This table shows the expected FASTOP codes for various classroom activities.
