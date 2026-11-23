@@ -102,6 +102,32 @@ New observers should practice coding with classroom videos before observing a li
 and compare their codes with an experienced observer.
 
 
+## What are some tips for coding?
+
+Some codes can be difficult to tell apart.
+Here are some guidelines for common situations:
+
+- **Ask, Answer, or Discuss?**
+  If one person asks a question and another person answers, code *Ask* and *Answer*.
+  If the conversation goes back and forth (more than one question and answer), code *Discuss*.
+- **Speak or Ask?**
+  If the teacher presents without interaction, code *Speak*.
+  If the teacher poses a question and waits for students to respond, code *Ask*.
+- **Work or Watch/Listen?**
+  Students who listen to a lecture are *Watch/Listen* with focus *Class*.
+  Students who take notes or work on their own are *Work* with focus *Solo*.
+  If students do both during the same minute, code both.
+- **Teacher walking around the room?**
+  If the teacher monitors the class without talking to anyone, code *Watch/Listen* with focus *Class*.
+  If the teacher stops to talk with a team, code *Discuss* (or *Ask* or *Answer*) with focus *Team*.
+  If the teacher talks with two or more teams at the same time, use focus *Teams*.
+- **Not sure?**
+  Record the codes that seem closest, and write a note explaining what happened.
+
+In data files, codes are prefixed with **S-** (student) or **I-** (instructor),
+and *Watch/Listen* is abbreviated as *Watch* (e.g., `S-Watch`, `I-Speak`).
+
+
 ## What FASTOP codes are typical for various classroom activities?
 
 This table shows the expected FASTOP codes for various classroom activities.
