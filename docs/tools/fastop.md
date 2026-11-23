@@ -99,12 +99,17 @@ See below for a table and plots of FASTOP codes from real classrooms.
 
 ## What can analysis of FASTOP data show?
 
-This table summarizes some preliminary data.
+This table summarizes preliminary results from our 2023 ASEE paper,
+based on 44 class sessions in 10 sections of 3 courses, taught by 6 instructors at 2 institutions.
 Each row is a FASTOP code, grouped into student and teacher *focus*, and student and teacher *action*.
 Each column is a classroom activity: traditional lecture, interactive lecture, computer laboratory, POGIL team work, and POGIL report out.
-Real classroom observation sessions were segmented based on the observed activity.
-Code occurrences were counted, and then normalized by the number of codes, so each block sums to 100%.
-For each activity, the column lists the weighted averages; for clarity, values <10% have been replaced with an asterisk.
+
+To create the table, each observed session was split into segments based on the activity.
+Observers often marked more than one code in the same minute, so each code was weighted by 1/*k*,
+where *k* is the number of codes marked in that minute and category.
+For example, if a student was coded as both *Work* and *Discuss* in one minute, each code counted as 1/2.
+The weighted codes were then averaged across instructors and classes, so each block sums to 100%.
+For clarity, values <10% have been replaced with an asterisk.
 
 Thus, in a traditional lecture, the teacher mostly *speaks* to the whole *class*,
 while roughly half of students *watch/listen* and the rest are *distracted* or *work*.
@@ -148,11 +153,15 @@ while students *discuss* and *work* more than half of the time.
 
 </div>
 
-The plot below shows actions and focus for instructors and students during an interactive lecture session:
+The plots below show FASTOP data from two individual class sessions (not averages); courses are anonymized.
+For each session, the first plot shows the proportion of each code,
+and the second plot shows the number of times each code was recorded.
+
+Actions and focus for instructors and students during an interactive lecture session:
 ![Stacked proportion bars of instructor and student action and focus codes for the interactive lecture, showing that students mostly watched and focus was mostly on the whole class.](img/FASTOP-IL-stack.png)
 ![Horizontal bar charts of instructor and student action and focus codes for the interactive lecture, where watching was the most common action for both and whole-class focus dominated.](img/FASTOP-IL-bar.png)
 
-The plot below shows actions and focus for instructors and students during a POGIL session:
+Actions and focus for instructors and students during a POGIL session:
 ![Stacked proportion bars of instructor and student action and focus codes for the POGIL session, showing student actions split among watching, discussing, and working, with focus mostly on solo and team work.](img/FASTOP-POGIL-stack.png)
 ![Horizontal bar charts of instructor and student action and focus codes for the POGIL session, where student discussing and working nearly matched watching and team focus was most common.](img/FASTOP-POGIL-bar.png)
 
