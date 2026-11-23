@@ -3,6 +3,7 @@ site_url: https://cspogil.github.io/
 repo_url: https://github.com/cspogil/cspogil.github.io
 
 not_in_nav: |
+  tools/fastop-observing.md
   tools/fastop-research.md
 
 # extra:
