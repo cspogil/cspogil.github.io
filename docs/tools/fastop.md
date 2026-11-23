@@ -36,7 +36,12 @@ it records lower-level practices that can be combined to describe higher-level p
       [:material-file-excel: spreadsheet](img/FASTOP-class-level.xlsx)
 - The [:material-application: OPTIC App](https://optic.kussmaul.org),
   which supports FASTOP on a laptop or tablet and exports the data as a CSV file.
-- Check out a [:material-database: sample datafile](). <!-- INCOMPLETE -->
+- Sample data from two class-level observations in Spring 2024:
+  [:material-database: POGIL session](img/FASTOP-sample-POGIL.xlsx) and
+  [:material-database: interactive lecture session](img/FASTOP-sample-IntLec.xlsx).
+  Each file shows the codes for each minute (in the same format as the blank spreadsheet)
+  and the individual events recorded by the OPTIC App.
+  Our [SIGCSE 2025 paper](../research/2025/campbell-2025-engage.md) analyzes similar data from earlier observations.
 
 
 ## Public Data Release
