@@ -7,13 +7,21 @@
 
 **FASTOP** is a classroom observation protocol intended to monitor the **focus** (e.g., solo, pair, team, or whole class) and **action** (e.g., discuss, speak/present, watch/listen, or distracted) of both **students** and **teachers** (instructors).
 
+Many observation protocols combine group size and activity into a single code.
+For example, COPUS has a code for "discuss clicker question in groups."
+FASTOP records these separately: *who* is involved (focus) and *what* they are doing (action).
+As a result, the same small set of codes works across many kinds of classes,
+including lectures, labs, Peer Instruction, and POGIL.
+One collaborator described FASTOP as an "assembly language" for observations:
+it records lower-level practices that can be combined to describe higher-level practices.
+
 
 ## Who could use FASTOP?
 
-- coaches and mentors of learner-centered practitioners
-- experienced practitioners who want data on their classes
-- administrators who evaluate teaching
-- researchers who study learner-centered classrooms
+- researchers who compare what happens in classes that use different pedagogies
+- researchers who study how faithfully a pedagogy (e.g., POGIL) is implemented
+- researchers who combine classroom observations with student or instructor surveys
+- coaches, mentors, and instructors who want data on what students actually do in class
 
 
 ## How to use FASTOP? (Quick Start)
