@@ -65,15 +65,32 @@ Thus, most observations will have 1+ focus codes and 1+ action codes for both st
 ## What FASTOP codes are typical for various classroom activities?
 
 This table shows the expected FASTOP codes for various classroom activities.
+When a cell has multiple lines, each focus code is paired with the action code(s) on the same line.
+For example, during a traditional lecture, some students watch/listen as a whole class,
+some discuss in pairs, and some work alone or are distracted.
+
+POGIL classes alternate between two modes:
+teams work on an activity while the teacher monitors the class and interacts with teams,
+and the teacher has teams "report out" their answers to the whole class.
+Peer Instruction repeats a cycle of steps:
+(a) the teacher poses a question, (b) students answer individually,
+(c) the teacher presents the distribution of answers, (d) students discuss in pairs,
+(e) students answer individually again, and (f) the teacher again presents the answers.
 
 <div class="compact" markdown> <!-- affects mkdocs but not VSCodium preview -->
 
-| Activity                                               | Focus                                                   | Teacher (Instructor) Action                                     | Focus                                                | Student Action                                                 |
-| -----------------------------------------------------: | ------------------------------------------------------: | --------------------------------------------------------------- | ---------------------------------------------------: | -------------------------------------------------------------- |
-| Traditional Lecture                                    | Class                                                   | Speak                                                           | Class<br/>Pair<br/>Solo                              | Listen<br/>Discuss<br/>Work, Distracted                        |
-| Computer Laboratory                                    | Class<br/>Solo, Pair                                    | Watch<br/>Discuss                                               | Solo<br/>Pair                                        | Work<br/>Work, Discuss                                         |
-| POGIL a. teamwork<br/><br/>b. report out               | Class<br/>Team <br/>Class                               | Watch<br/>Discuss <br/>Ask, Discuss                             | <br/>Team <br/>Class                                 | <br/>Discuss, Work <br/>Answer                                 |
-| Peer Instruction a.<br/>b.<br/>c.<br/>d.<br/>e.<br/>f. | Class<br/>Class<br/>Class<br/>Class<br/>Class<br/>Class | Speak, Ask<br/>Watch<br/>Speak, Ask<br/>Watch<br/>Ask<br/>Speak | Class<br/>Solo<br/>Class<br/>Pair<br/>Solo<br/>Class | Listen<br/>Answer<br/>Listen<br/>Discuss<br/>Answer<br/>Listen |
+|                         Activity |        Teacher Focus | Teacher Action                 |           Student Focus | Student Action                                |
+| -------------------------------: | -------------------: | ------------------------------ | ----------------------: | --------------------------------------------- |
+|              Traditional Lecture |                Class | Speak                          | Class<br/>Pair<br/>Solo | Watch/Listen<br/>Discuss<br/>Work, Distracted |
+|              Computer Laboratory | Class<br/>Solo, Pair | Watch/Listen<br/>Discuss, Work |           Solo<br/>Pair | Work<br/>Work, Discuss                        |
+|                   POGIL Teamwork |       Class<br/>Team | Watch/Listen<br/>Discuss       |                    Team | Discuss, Work                                 |
+|                 POGIL Report Out |                Class | Ask, Discuss                   |                   Class | Answer                                        |
+|    Peer Instruction (a) question |                Class | Speak, Ask                     |                   Class | Watch/Listen                                  |
+|      Peer Instruction (b) answer |                Class | Watch/Listen                   |                    Solo | Answer                                        |
+|     Peer Instruction (c) results |                Class | Speak, Ask                     |                   Class | Watch/Listen                                  |
+|     Peer Instruction (d) discuss |                Class | Watch/Listen                   |                    Pair | Discuss                                       |
+|      Peer Instruction (e) answer |                Class | Ask                            |                    Solo | Answer                                        |
+|     Peer Instruction (f) results |                Class | Speak                          |                   Class | Watch/Listen                                  |
 
 </div>
 
