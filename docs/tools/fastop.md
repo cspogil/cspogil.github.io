@@ -24,11 +24,18 @@ it records lower-level practices that can be combined to describe higher-level p
 - coaches, mentors, and instructors who want data on what students actually do in class
 
 
-## How to use FASTOP? (Quick Start)
+## What is in the FASTOP toolbox?
 
-- Decide how to collect data:
-    - Download & print the [:material-file-excel: blank grid](img/FASTOP-blank-grid.xlsx).
-    - Use the [:material-application: OPTIC App](https://optic.kussmaul.org).
+- Blank observation worksheets
+  (see [How to conduct a FASTOP observation?](#how-to-conduct-a-fastop-observation) for the two kinds):
+    - Student-level:
+      [:material-file-pdf-box: printable PDF](img/FASTOP-student-level.pdf) or
+      [:material-file-excel: spreadsheet](img/FASTOP-student-level.xlsx)
+    - Class-level:
+      [:material-file-pdf-box: printable PDF](img/FASTOP-class-level.pdf) or
+      [:material-file-excel: spreadsheet](img/FASTOP-class-level.xlsx)
+- The [:material-application: OPTIC App](https://optic.kussmaul.org),
+  which supports FASTOP on a laptop or tablet and exports the data as a CSV file.
 - Check out a [:material-database: sample datafile](). <!-- INCOMPLETE -->
 
 
