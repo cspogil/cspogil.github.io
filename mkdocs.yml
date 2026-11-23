@@ -3,7 +3,7 @@ site_url: https://cspogil.github.io/
 repo_url: https://github.com/cspogil/cspogil.github.io
 
 not_in_nav: |
-  tools/fastop-mapping.md
+  tools/fastop-research.md
 
 # extra:
 #   consent:
@@ -81,6 +81,7 @@ plugins:
         'What+is+POGIL.md': 'overview/index.md'
         'Describe+SII+(Strengths,+Improvements,+Insights).md': 'https://processeducation.org/PD/4_1_9.pdf'
         'Home.md': 'index.md'
+        'tools/fastop-mapping.md': 'tools/fastop-research.md'
 
 theme:
   name: material

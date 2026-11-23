@@ -2,7 +2,9 @@
 parent: tools/fastop.md
 ---
 
-# FASTOP Codes & Mappings
+# FASTOP for Researchers
+
+<script src="../../auto-toc.js"></script>
 
 <!-- 
 ## FASTOP Codes (some abbreviated)

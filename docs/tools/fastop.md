@@ -258,7 +258,7 @@ For example, students could work with a team, a partner, or alone;
 the instructor could speak to a single student, a team, or the whole class.
 
 Thus, most COPUS and OPTIC codes map to multiple FASTOP codes.
-Here is a [:material-map: draft mapping between OPTIC, COPUS, and FASTOP](fastop-mapping.md).
+Here is a [:material-map: draft mapping between OPTIC, COPUS, and FASTOP](fastop-research.md).
 
 
 ## How to learn more?
