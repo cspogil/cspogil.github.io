@@ -34,16 +34,16 @@ it records lower-level practices that can be combined to describe higher-level p
 - Blank observation worksheets
   (see [How to conduct a FASTOP observation?](fastop-observing.md#how-to-conduct-a-fastop-observation) for the two kinds):
     - Student-level:
-      [:material-file-pdf-box: printable PDF](img/FASTOP-student-level.pdf) or
-      [:material-file-excel: spreadsheet](img/FASTOP-student-level.xlsx)
+      [:material-file-pdf-box: printable PDF](fastop/FASTOP-student-level.pdf) or
+      [:material-file-excel: spreadsheet](fastop/FASTOP-student-level.xlsx)
     - Class-level:
-      [:material-file-pdf-box: printable PDF](img/FASTOP-class-level.pdf) or
-      [:material-file-excel: spreadsheet](img/FASTOP-class-level.xlsx)
+      [:material-file-pdf-box: printable PDF](fastop/FASTOP-class-level.pdf) or
+      [:material-file-excel: spreadsheet](fastop/FASTOP-class-level.xlsx)
 - The [:material-application: OPTIC App](https://optic.kussmaul.org),
   which supports FASTOP on a laptop or tablet and exports the data as a CSV file.
 - Sample data from two class-level observations in Spring 2024:
-  [:material-database: POGIL session](img/FASTOP-sample-POGIL.xlsx) and
-  [:material-database: interactive lecture session](img/FASTOP-sample-IntLec.xlsx).
+  [:material-database: POGIL session](fastop/FASTOP-sample-POGIL.xlsx) and
+  [:material-database: interactive lecture session](fastop/FASTOP-sample-IntLec.xlsx).
   Each file shows the codes for each minute (in the same format as the blank spreadsheet)
   and the individual events recorded by the OPTIC App.
   Our [SIGCSE 2025 paper](../research/2025/campbell-2025-engage.md) analyzes similar data from earlier observations.
